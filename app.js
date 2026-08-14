@@ -766,17 +766,6 @@
     { key: 'lean-line-570',   thickness: '0.5mm', traffic: 'Low', warranty: '1 year', env: 'Internal' }
   ];
 
-  var COLOUR_GUIDE = [
-    { colour: 'yellow', use: 'Aisles, walkways and traffic lanes', note: 'The default boundary colour on most Australian sites.' },
-    { colour: 'white',  use: 'Equipment and workstation locations', note: 'Anything that is not raw material, finished goods or waste.' },
-    { colour: 'blue',   use: 'Raw materials and components', note: 'Incoming stock waiting to enter the process.' },
-    { colour: 'green',  use: 'Finished goods and safe zones', note: 'Also used for egress arrows and first aid.' },
-    { colour: 'red',    use: 'Defects, scrap, rework and red tag', note: 'Anything that must not re-enter the process.' },
-    { colour: 'orange', use: 'Materials awaiting inspection', note: 'Quarantine and hold areas before sign-off.' },
-    { colour: 'diagonal-black-yellow', use: 'Physical or health hazards', note: 'Hazard boundaries where a person could be injured.' },
-    { colour: 'diagonal-red-white',    use: 'Fire and safety equipment', note: 'Keep-clear zones around extinguishers and exits.' }
-  ];
-
   var FAQS = [
     { q: 'How long does line marking tape last?',
       a: 'It depends on the tape and the traffic. Lean Line 570 at 0.5mm carries a 1-year warranty and suits foot traffic. Lean Line 960 at 0.9mm carries 2 years for medium traffic. MightyLine at 1.3mm carries a 3-year limited adhesion warranty and is the only one specified for constant forklift movement. Putting a light tape on a forklift route is the single most common reason tape fails early.' },
@@ -917,16 +906,6 @@
           '<td class="go"><a href="#' + r.key + '" data-product-route="' + r.key + '" aria-label="View ' + p.shortName + '">&rarr;</a></td></tr>';
       }).join('');
       body.dataset.rendered = '1';
-    }
-
-    var guide = $('[data-colour-guide]');
-    if (guide && !guide.dataset.rendered) {
-      guide.innerHTML = COLOUR_GUIDE.map(function (g) {
-        return '<div class="colour-row reveal"><i style="' + colourStyle(g.colour) + '"></i>' +
-          '<div><strong>' + g.use + '</strong><p>' + g.note + '</p></div>' +
-          '<span class="mono">' + COLOURS[g.colour].label + '</span></div>';
-      }).join('');
-      guide.dataset.rendered = '1';
     }
 
     var faq = $('[data-faq-list]');

@@ -17,7 +17,7 @@ Ahrefs shows cotewell.com.au currently ranking for five keywords in Australia. N
 | safety floor tape | 90 | 0 | 600 | Category + floor signs |
 | floor safety signs | 80 | n/a | 400 | Floor sticker products |
 | warehouse floor tape | 30 | n/a | 500 | Lean Line 960 |
-| black and yellow floor tape | 30 | 0 | 200 | Colour guide section |
+| black and yellow floor tape | 30 | 0 | 200 | MightyLine and Lean Line swatch labels |
 | mighty line floor tape | 20 | n/a | 900 | MightyLine product page |
 | warehouse floor marking tape | 10 | n/a | 150 | Category body copy |
 | 5s floor marking | 0 | n/a | 350 | 5S shape products |
@@ -57,7 +57,7 @@ Canonicals stay on the existing live product URLs in every case. No URL changes 
 
 ## What changed against the live pages
 
-**Category page.** The live `/product-category/tape/` is a bare WooCommerce archive: no meta description, no intro copy, no way to tell the products apart. The mock-up adds a keyword-led H1 and intro, a type filter, three grouped product blocks with the traffic rating on every card, a tape comparison table, a colour convention guide and six FAQs.
+**Category page.** The live `/product-category/tape/` is a bare WooCommerce archive: no meta description, no intro copy, no way to tell the products apart. The mock-up adds a keyword-led H1 and intro, a type filter, three grouped product blocks with the traffic rating on every card, a tape comparison table and six FAQs.
 
 **Product pages.** The live template puts two lead-generation forms above the product content, so the specification a buyer came for sits below the fold. The mock-up leads with product, price and variant selection, then features, limitations and notes, applications, and a specification table. The `Request Free Sample` and `Fast Quote Request` blocks are replaced with a single free-sample text link beside the buy button and a sample band at the foot of the page.
 
@@ -68,9 +68,9 @@ Canonicals stay on the existing live product URLs in every case. No URL changes 
 1. **Traffic rating on every card and in the comparison table.** The single most common support question on this range is which tape survives forklifts. Answering it in the grid removes a phone call from the path to purchase.
 2. **Colour and width selection with live price and image update.** MightyLine has 28 price and variant combinations and diagonal patterns cost more, which is invisible on the live page until a colour is chosen.
 3. **Free sample as a secondary action next to Add to cart.** A $269 roll is a considered purchase; the sample is the low-friction step, and it is already promoted in the utility nav.
-4. **Colour convention guide.** Buyers implementing 5S often do not know what each colour should mean. The guide gives a reason to specify more than one colour per order.
-5. **Sticky purchase bar on product pages** carrying the current price for the selected variant.
-6. **FAQ block** answering the six pre-purchase questions the team fields most, with FAQPage schema attached.
+4. **Sticky purchase bar on product pages** carrying the current price for the selected variant.
+5. **FAQ block** answering the six pre-purchase questions the team fields most, with FAQPage schema attached.
+6. **Free sample band** closing both the category and every product page.
 
 ## Structured data
 

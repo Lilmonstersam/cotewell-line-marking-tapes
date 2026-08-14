@@ -724,14 +724,6 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 .compare-note { margin: 20px 0 0; color: rgba(255,255,255,.56); font-size: 13px; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
-/* ------------------------------------------------------- colour guide */
-.colour-guide { display: grid; grid-template-columns: 1fr 1fr; gap: 0 44px; border-top: 1px solid var(--line-dark); }
-.colour-row { display: grid; grid-template-columns: 30px 1fr auto; gap: 16px; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--line-dark); }
-.colour-row i { width: 30px; height: 30px; border: 1px solid rgba(0,0,0,.2); border-radius: 5px; }
-.colour-row strong { display: block; font-family: "Archivo", sans-serif; font-size: 14.5px; }
-.colour-row p { margin: 3px 0 0; color: var(--muted-dark); font-size: 12px; line-height: 1.5; }
-.colour-row .mono { color: var(--muted-dark); white-space: nowrap; }
-
 /* ------------------------------------------------------- specs */
 .spec-table { display: grid; grid-template-columns: 1fr 1fr; gap: 0 46px; border-top: 1px solid var(--line-light); }
 .spec-row { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 15px 0; border-bottom: 1px solid var(--line-light); }
@@ -846,7 +838,6 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   .group-head { grid-template-columns: 1fr; gap: 10px; }
   .group-grid { grid-template-columns: repeat(2, 1fr); }
   .tape-card__media { height: 230px; }
-  .colour-guide { grid-template-columns: 1fr; }
   .spec-table { grid-template-columns: 1fr; }
   .sample-band__inner { grid-template-columns: 1fr; gap: 26px; }
   .product-hero__grid { grid-template-columns: 1fr; gap: 25px; }
