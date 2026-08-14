@@ -1,0 +1,61 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy static mock-up
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Verify required files are present
+        run: |
+          set -e
+          for f in index.html 404.html app.js styles.css robots.txt .nojekyll; do
+            [ -f "$f" ] || { echo "::error::Missing required file: $f"; exit 1; }
+          done
+          for f in assets/fonts/archivo-latin.woff2 \
+                   assets/fonts/red-hat-display-latin.woff2 \
+                   assets/fonts/ibm-plex-mono-latin-400.woff2 \
+                   assets/fonts/ibm-plex-mono-latin-500.woff2 \
+                   assets/img/cotewell-logo.jpeg \
+                   assets/img/favicon.svg \
+                   assets/img/project-dematic.png \
+                   assets/img/project-tubeworx.png; do
+            [ -f "$f" ] || { echo "::error::Missing required asset: $f"; exit 1; }
+          done
+          echo "All required files present."
+
+      - name: Check app.js parses
+        run: node --check app.js
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

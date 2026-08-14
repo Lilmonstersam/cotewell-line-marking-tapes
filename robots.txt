@@ -1,0 +1,3 @@
+# Client-review mock-up, deliberately kept out of the index.
+User-agent: *
+Disallow: /
