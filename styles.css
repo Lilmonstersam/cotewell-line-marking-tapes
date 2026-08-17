@@ -372,7 +372,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 }
 .tape-card:hover { transform: translateY(-5px); border-color: rgba(0,0,0,.3); box-shadow: 0 18px 42px rgba(0,0,0,.1); }
 .tape-card__media { position: relative; display: grid; place-items: center; height: 210px; overflow: hidden; background: radial-gradient(circle at 50% 42%, #26292c, #08090a 72%); }
-.tape-card__media img { position: relative; z-index: 3; max-width: 74%; max-height: 74%; width: auto; height: auto; object-fit: contain; filter: drop-shadow(0 18px 18px rgba(0,0,0,.55)); }
+.tape-card__media img { position: absolute; z-index: 3; inset: 0; width: 100%; height: 100%; padding: 26px; object-fit: contain; filter: drop-shadow(0 18px 18px rgba(0,0,0,.55)); }
 .product-badge { position: absolute; z-index: 4; top: 14px; left: 14px; padding: 7px 9px; border: 1px solid rgba(255,255,255,.22); background: rgba(0,0,0,.58); color: rgba(255,255,255,.8); font-family: "IBM Plex Mono"; font-size: 8px; letter-spacing: .1em; text-transform: uppercase; }
 .tape-card__copy { display: flex; flex: 1; flex-direction: column; padding: 22px; }
 .tape-card__copy .mono { margin: 0 0 11px; color: var(--signal); }
@@ -487,20 +487,24 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 58px;
-  align-items: center;
+  align-items: start;
+  /* summary padding-top (34) + eyebrow height (15) + eyebrow margin (18):
+     offsets the media panel so its top edge lines up with the H1. */
+  --hero-lead: 67px;
 }
 
 .product-media {
   position: relative;
-  min-height: 520px;
+  margin-top: var(--hero-lead);
+  min-height: 470px;
   overflow: hidden;
   border: 1px solid var(--line-light);
-  background: radial-gradient(circle at 56% 38%, #25282a, #090a0b 67%);
+  background: radial-gradient(circle at 56% 34%, #25282a, #090a0b 67%);
 }
 
 .product-media__grid {
   position: absolute;
-  inset: 55% -30% -25%;
+  inset: 58% -30% -25%;
   background:
     linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
@@ -512,17 +516,15 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 .product-media img {
   position: absolute;
   z-index: 3;
-  top: 50%;
-  left: 50%;
-  max-width: 74%;
-  max-height: 74%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
+  inset: 26px 0 auto;
+  width: 100%;
+  height: 330px;
+  padding: 0 12%;
+  object-fit: contain;
   filter: drop-shadow(0 28px 28px rgba(0,0,0,.6));
 }
 
-.product-media .product-art { z-index: 1; }
+.product-media .product-art { z-index: 1; padding-bottom: 100px; }
 .product-media .art-roll  { --art-w: 290px; --art-h: 290px; }
 .product-media .art-angle { --art-w: 262px; --art-h: 262px; }
 .product-media .art-tee   { --art-w: 288px; --art-h: 201px; }
@@ -683,7 +685,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 .related-product { display: flex; flex-direction: column; border: 1px solid var(--line-dark); background: rgba(255,255,255,.45); transition: transform 190ms ease, box-shadow 190ms ease, border-color 190ms ease; }
 .related-product:hover { transform: translateY(-5px); box-shadow: 0 16px 35px rgba(0,0,0,.1); }
 .related-product__media { position: relative; height: 235px; display: grid; place-items: center; overflow: hidden; background: radial-gradient(circle at 50% 42%, #26292c, #08090a 72%); }
-.related-product__media img { position: relative; z-index: 3; max-width: 70%; max-height: 70%; width: auto; height: auto; object-fit: contain; filter: drop-shadow(0 16px 16px rgba(0,0,0,.5)); }
+.related-product__media img { position: absolute; z-index: 3; inset: 0; width: 100%; height: 100%; padding: 26px; object-fit: contain; filter: drop-shadow(0 16px 16px rgba(0,0,0,.5)); }
 .related-product__copy { flex: 1; display: flex; flex-direction: column; padding: 22px; }
 .related-product__copy .mono { margin: 0 0 13px; color: var(--signal); }
 .related-product__copy h3 { margin: 0 0 12px; font-size: 20px; line-height: 1.08; text-transform: uppercase; }
@@ -840,7 +842,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   .tape-card__media { height: 230px; }
   .spec-table { grid-template-columns: 1fr; }
   .sample-band__inner { grid-template-columns: 1fr; gap: 26px; }
-  .product-hero__grid { grid-template-columns: 1fr; gap: 25px; }
+  .product-hero__grid { grid-template-columns: 1fr; gap: 25px; --hero-lead: 0px; }
   .product-media { min-height: 500px; }
   .product-summary { padding-top: 10px; }
   .section { padding: 72px 0; }
@@ -881,7 +883,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   .product-hero { padding-top: 14px; padding-bottom: 54px; }
   .breadcrumbs { white-space: nowrap; overflow: hidden; font-size: 9px; }
   .product-media { min-height: 380px; }
-  .product-media img { max-width: 78%; max-height: 72%; }
+  .product-media img { height: 250px; padding: 0 14%; }
   .product-media .art-roll { --art-w: 178px; --art-h: 178px; }
   .product-media .art-sign { --art-w: 190px; --art-h: 190px; }
   .product-media .art-sign b { font-size: 21px; }
@@ -960,4 +962,78 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 @media (max-width: 680px) {
   .notfound__routes ul { grid-template-columns: 1fr; }
   .notfound__actions { display: grid; grid-template-columns: 1fr; }
+}
+
+/* ------------------------------------------------------- photo / illustration swap
+   One visual at a time. The product photograph is shown by default and
+   crossfades to the tinted floor illustration on hover. If the photograph
+   fails to load, .no-photo pins the illustration on permanently. */
+.tape-card__media img,
+.related-product__media img,
+.product-media img,
+.tape-card__media .product-art,
+.related-product__media .product-art,
+.product-media .product-art {
+  transition: opacity 260ms ease;
+}
+
+.tape-card__media .product-art,
+.related-product__media .product-art,
+.product-media .product-art { opacity: 0; }
+
+.tape-card:hover .tape-card__media img,
+.related-product:hover .related-product__media img,
+.product-media:hover img { opacity: 0; }
+
+.tape-card:hover .tape-card__media .product-art,
+.related-product:hover .related-product__media .product-art,
+.product-media:hover .product-art { opacity: 1; }
+
+.tape-card__media.no-photo img,
+.related-product__media.no-photo img,
+.product-media.no-photo img { opacity: 0; }
+
+.tape-card__media.no-photo .product-art,
+.related-product__media.no-photo .product-art,
+.product-media.no-photo .product-art { opacity: 1; }
+
+/* Hover hint, shown only on the product hero. */
+.media-hint {
+  position: absolute;
+  z-index: 4;
+  left: 22px;
+  bottom: 22px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 11px;
+  border: 1px solid rgba(255,255,255,.16);
+  background: rgba(0,0,0,.45);
+  color: rgba(255,255,255,.6);
+  transition: opacity 260ms ease;
+}
+.media-hint::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--signal); }
+.product-media:hover .media-hint { opacity: 0; }
+.product-media.no-photo .media-hint { display: none; }
+
+/* Narrow viewports: no room for the hint alongside the variant label. */
+@media (max-width: 760px) {
+  .media-hint { display: none; }
+}
+
+/* No hover available: photograph only, never the illustration. */
+@media (hover: none) {
+  .tape-card__media .product-art,
+  .related-product__media .product-art,
+  .product-media .product-art { opacity: 0; }
+  .tape-card:hover .tape-card__media img,
+  .related-product:hover .related-product__media img,
+  .product-media:hover img { opacity: 1; }
+  .tape-card:hover .tape-card__media .product-art,
+  .related-product:hover .related-product__media .product-art,
+  .product-media:hover .product-art { opacity: 0; }
+  .tape-card__media.no-photo .product-art,
+  .related-product__media.no-photo .product-art,
+  .product-media.no-photo .product-art { opacity: 1; }
+  .media-hint { display: none; }
 }

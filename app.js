@@ -5,6 +5,13 @@
 
   var UP = 'https://cotewell.com.au/wp-content/uploads/';
 
+  /* Product photography is served from the live media library. If an image is
+     missing or blocked, pin the CSS illustration on instead of leaving a gap. */
+  window.cwPhotoFailed = function (img) {
+    var media = img.parentElement;
+    if (media) media.classList.add('no-photo');
+  };
+
   /* ------------------------------------------------------------------ colours */
   var COLOURS = {
     yellow:                 { label: 'Yellow',                 hex: '#f2c200' },
@@ -867,7 +874,7 @@
       '<div class="tape-card__media art-' + p.art + '" style="' + artStyle(p, colour) + '">' +
         '<span class="product-badge">' + p.badge + '</span>' +
         '<div class="product-art art-' + p.art + '" aria-hidden="true">' + (p.signText ? '<b>' + p.signText + '</b>' : '') + '</div>' +
-        (img ? '<img src="' + img + '" alt="' + p.shortName + '" loading="lazy" onerror="this.style.visibility=\'hidden\'">' : '') +
+        (img ? '<img src="' + img + '" alt="' + p.shortName + '" loading="lazy" onerror="window.cwPhotoFailed &amp;&amp; window.cwPhotoFailed(this)">' : '') +
       '</div>' +
       '<div class="tape-card__copy">' +
         '<p class="mono">' + p.cardType + '</p>' +
@@ -978,7 +985,7 @@
 
     var src = productImage(product, selection.colour);
     if (productImg) {
-      productImg.style.visibility = 'visible';
+      if (productMedia) productMedia.classList.remove('no-photo');
       if (src) {
         productImg.style.display = '';
         productImg.src = src;
@@ -986,6 +993,7 @@
       } else {
         productImg.removeAttribute('src');
         productImg.style.display = 'none';
+        if (productMedia) productMedia.classList.add('no-photo');
       }
     }
     if (productArt) {
@@ -1039,7 +1047,7 @@
       return '<a class="related-product" href="#' + k + '" data-product-route="' + k + '">' +
         '<div class="related-product__media art-' + r.art + '" style="' + artStyle(r, r.defaultColour) + '">' +
           '<div class="product-art art-' + r.art + '" aria-hidden="true">' + (r.signText ? '<b>' + r.signText + '</b>' : '') + '</div>' +
-          (img ? '<img src="' + img + '" alt="' + r.shortName + '" loading="lazy" onerror="this.style.visibility=\'hidden\'">' : '') +
+          (img ? '<img src="' + img + '" alt="' + r.shortName + '" loading="lazy" onerror="window.cwPhotoFailed &amp;&amp; window.cwPhotoFailed(this)">' : '') +
         '</div>' +
         '<div class="related-product__copy"><p class="mono">' + r.cardType + '</p><h3>' + r.shortName + '</h3><p>' + r.cardCopy + '</p>' +
         '<span class="text-link">From ' + money(priceFrom(r)) + ' + GST</span></div></a>';

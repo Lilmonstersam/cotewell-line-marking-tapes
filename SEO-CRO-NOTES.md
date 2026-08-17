@@ -71,6 +71,7 @@ Canonicals stay on the existing live product URLs in every case. No URL changes 
 4. **Sticky purchase bar on product pages** carrying the current price for the selected variant.
 5. **FAQ block** answering the six pre-purchase questions the team fields most, with FAQPage schema attached.
 6. **Free sample band** closing both the category and every product page.
+7. **Photograph on hover, illustration underneath.** Product cards and the hero show one visual at a time: the live product photograph at rest, crossfading to a tinted floor illustration on hover. The illustration follows the selected colour, so hovering a card is a fast way to read the range at a glance. On touch devices, and if a photograph fails to load, only one of the two is ever shown.
 
 ## Structured data
 
@@ -106,6 +107,7 @@ MightyLine diagonal patterns are priced above the solid colours at $326.00 for 5
 - Lean Line 570 features list on the live page contains two encoding faults, `medium traf?c` and `floor joints` rendered as `?oor joints`. Corrected in the mock-up copy.
 - The live Lean Line 570 page uses a non-standard `attribute_width` taxonomy where every other product uses `attribute_pa_width`. This should be normalised in WooCommerce.
 - External Line Marking Tape serves the same yellow image for all five colours. Colour photography is needed.
+- Product photography sits on inconsistent aspect ratios across the range, so the mock-up letterboxes every image rather than cropping to fill. Consistent square crops would let the grid use the full tile.
 - X-Treme Freezer Small Footprints reuses the standard footprint imagery.
 - The live 570 page description says the tape is 0.5mm thick and "withstanding medium traffic", while the same page and its meta description call it low traffic. The mock-up follows the low-traffic positioning.
 
