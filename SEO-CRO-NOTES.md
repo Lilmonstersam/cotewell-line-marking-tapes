@@ -226,3 +226,12 @@ Every other tape product's live gallery is variation cut-outs only, so no On-sit
 #9B0020 on the near-black ground measures 2.31:1, below the 3:1 floor. Fills keep the brand red (white on #9B0020 is 8.7:1); small red **text** on dark is now white or `rgba(255,255,255,.72)`. Affected: utility bar hover, "Free tape samples" (now white with a red dot), project card labels, ink-panel related-product labels, footer headings, 404 route headings, active swatch ring, comparison table link.
 
 **Still red on dark, by choice:** the `<em>` accent word in the category and product H1s. At display size it reads as deep maroon rather than the previous crimson. Say the word if you want those lifted too.
+
+---
+
+## Revision — 27 Aug 2026 (c) — hero video, type scale, features panel
+
+- **Hero video.** Autoplay (muted, looping) embed of the **Tubeworx testimonial** in the right column. Copy, proof stats and CTAs moved into the left column.
+- **Cost calculator** added as a secondary CTA in the hero, beside the primary Request a Quote.
+- **Body copy scale** raised to match cotewell.com.au, which runs 20.16px / 30.24px for plain text. Product descriptions, section intros and FAQ answers are now 20px; list items, table cells and card copy sit at 16–18px, since 20px breaks the multi-column grids.
+- **Product features section** redesigned as a decorated panel: tinted wave, dot and stripe shapes from `seo/images/decorative-images` masked into the brand palette, individual white tiles with rotating accent colours (#9B0020, teal, purple), and larger body copy.
