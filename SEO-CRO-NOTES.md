@@ -139,3 +139,90 @@ MightyLine diagonal patterns are priced above the solid colours at $326.00 for 5
 - [MightyLine Floor Sticker "Stop Sign"](https://cotewell.com.au/product/mightyline-floor-sticker-stop-sign/)
 - [MightyLine Floor Sticker "Warning Forklift Traffic"](https://cotewell.com.au/product/mightyline-floor-sticker-warning-forklift-traffic/)
 - [MightyLine Floor Sticker "Keep Clear Do Not Block"](https://cotewell.com.au/product/mightyline-floor-sticker-keep-clear-do-not-block/)
+
+---
+
+## Revision — 27 Aug 2026
+
+### Navigation (aligned across all four mock-ups)
+Row 1 (utility): Brisbane · Sydney · Melbourne | Our story · Testimonials · Case studies · Learning centre · How can we help? · Free tape samples | phone · email
+Row 2 (primary): Floor coating · Line marking · Floor resurfacing · Tape & shapes · Projectors · Cost calculator | Cart · **Request a Quote** (primary CTA)
+
+- `Blog` renamed `Learning centre` → https://cotewell.com.au/learning-centre/
+- Added: How Can We Help?, Industrial Floor Resurfacing, Floor Coating Cost Calculator, Request a Quote
+- Removed: `Shop` and `All products` from the nav (Shop remains in breadcrumbs/footer, which matches the live IA)
+- `Case studies` moved to row 1, beside Testimonials
+- `Testimonials` / `Case studies` now point at /video-gallery/ (the live destination), not /#testimonials
+- Nav gaps tighten at 1220px and the primary row wraps to its own line below 1040px
+
+### Brand palette
+Single red: **#9B0020**. `--signal` (#E0002E) and `--signal-bright` (#FF1748) collapsed onto it; button hover darkens to #7D0019.
+
+### Product view
+- Removed the generated CSS floor illustrations (`product-art`) and the hover crossfade / "Hover to preview on the floor" hint. Every visual is now a live `cotewell.com.au/wp-content/uploads` image; all 63 referenced URLs were confirmed to resolve.
+- Added a variation photo rail under the hero image (live product gallery behaviour) — clicking a thumbnail selects that colour and swaps the hero shot. 14 thumbs on MightyLine, 12 on Lean Line, hidden on single-image products.
+- Added the Zip payment line ("or pay nothing today with [zip] ⓘ") above the variant selectors, using Zip's own `zip-button-wht.svg` with a text fallback.
+- Lean Line 570 canonical corrected to `/product/lean-line-570-floor-marking-tape-50mm-x-30m-roll/`.
+
+### Copy audit vs live (27 Aug 2026)
+Corrected — claims not supported by the live product pages:
+| Where | Was | Now |
+|---|---|---|
+| Hero proof | "Thickest tape in the range" | "Heaviest-duty tape thickness" (External tape is also 1.3mm) |
+| Hero intro | "install in hours, not days" | "install with no production downtime" |
+| 5S T Shape | "3-year limited warranty", "152 x 152 x 50mm" | removed — live T-Shape page states neither |
+| 5S Arrow | "point pedestrians towards safety in emergency situations"; green-egress colour convention | replaced with live traffic-flow / designated-route wording |
+| Footprints | "reads instantly, even to visitors who have never been on site" | live "reinforce designated pedestrian walkways" wording |
+| Floor signs group | "Large-format **laminated** floor stickers" | "Large-format floor stickers" (Warning Forklift is not described as laminated) |
+| FAQ | MightyLine "the only one specified for constant forklift movement" | "built to withstand heavy industrial forklift and wheeled traffic" |
+| Lean Line 570 | "cheapest roll in the range / cheapest way to trial a layout" | live "easy-to-install-yourself … clear visual management" wording |
+| Projects | "with no shutdown required during installation" | "on working industrial floors" |
+
+**Still to verify manually.** Two live pages returned 403 to every request this session (the WAF/geo-block issue), so their specs could not be re-checked:
+- `/product/lean-line-570-floor-marking-tape-50mm-x-30m-roll/` — mock-up claims 0.5mm, 1-year warranty, 12 colours, square-cut edges, $79 + GST
+- `/product/mightyline-small-footprints-pair/` — mock-up claims 241mm x 89mm, pair per pack, 5 colours, $14.70 + GST
+
+---
+
+## Revision — 27 Aug 2026 (b) — gallery + table readability
+
+### Real-life product photography
+Pulled every live WooCommerce gallery via `data-product_variations` vs `.woocommerce-product-gallery__image`, which separates the variation cut-outs from the in-service photographs. A second gallery rail, **On site**, now sits under the colour rail and feeds the same hero frame. All URLs verified against the live media library.
+
+| Product | On-site photos |
+|---|---|
+| MightyLine Marking Tape | `Factory-Line-Marking-QLD-1.jpg`, `shared-image-17-1.jpg` |
+| X-Treme Freezer Tape | `Food-Processing-Line-Marking-VIC.jpg` |
+| External Line Marking Tape | `External-Tape`, `External-Tape-Crossing`, `External-Green-Red` |
+
+Every other tape product's live gallery is variation cut-outs only, so no On-site row renders. Heroes use the 1024px derivative rather than the 2560px `-scaled` original; thumbnails use the 300px derivative.
+
+### Duplicate variation thumbnails
+`renderThumbs` now de-duplicates by image URL and drops the rail entirely when fewer than two distinct images remain. The External Line Marking Tape pointed all five colours at `Cotewell-External-Tape-Yellow.png` (as the live product does), so its colour rail is gone; the five colours are still selectable in the buy panel.
+
+### Table readability
+**Tape comparison table (category page)**
+- Product column pinned while the specs scroll sideways; header row sticky
+- Zebra banding replaces hover-only row tracking; hover kept as a stronger second state
+- Cell text 13px → 13.5px, `.72` → `.84` opacity; header `.56` → `.72`
+- Price column gets tabular numerals and a `+ GST` sub-label
+- Bare red `→` (illegible at #9B0020 on black) replaced with a white "View →" link
+- Scroll hint shown below 900px
+
+**Specifications table (product pages)**
+- Label column fixed at 132px so every value starts on the same line, instead of right-aligning values across a wide gap
+- Zebra banding down both columns; label contrast `.5` → `.62`; values now explicitly white
+- `spec-extra` separated with a rule; 13px → 13.5px
+- Collapses to one column below 760px
+
+**Product features cards**
+- Removed the fixed `51px` heading margin that left dead space on short cards; flex column now
+- Index number is a filled #9B0020 disc with white text (8.7:1) instead of low-contrast red type
+- Body copy 12px → 13px, `.64` → `.72`; heading 18px → 16.5px for fewer awkward wraps
+- 3 → 2 columns at 1000px
+- Limitations/applications lists 11px → 12.5px
+
+### Red text contrast on dark
+#9B0020 on the near-black ground measures 2.31:1, below the 3:1 floor. Fills keep the brand red (white on #9B0020 is 8.7:1); small red **text** on dark is now white or `rgba(255,255,255,.72)`. Affected: utility bar hover, "Free tape samples" (now white with a red dot), project card labels, ink-panel related-product labels, footer headings, 404 route headings, active swatch ring, comparison table link.
+
+**Still red on dark, by choice:** the `<em>` accent word in the category and product H1s. At display size it reads as deep maroon rather than the previous crimson. Say the word if you want those lifted too.

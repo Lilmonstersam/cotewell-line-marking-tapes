@@ -5,13 +5,6 @@
 
   var UP = 'https://cotewell.com.au/wp-content/uploads/';
 
-  /* Product photography is served from the live media library. If an image is
-     missing or blocked, pin the CSS illustration on instead of leaving a gap. */
-  window.cwPhotoFailed = function (img) {
-    var media = img.parentElement;
-    if (media) media.classList.add('no-photo');
-  };
-
   /* ------------------------------------------------------------------ colours */
   var COLOURS = {
     yellow:                 { label: 'Yellow',                 hex: '#f2c200' },
@@ -54,7 +47,7 @@
   var GROUPS = {
     tape:   { label: 'Line marking tape',        heading: 'Line marking tape',        blurb: 'Rolls for walkways, forklift routes, aisle edges and exclusion zones. Choose by thickness and the traffic the line has to survive.' },
     shapes: { label: '5S shapes & footprints',   heading: '5S shapes and footprints', blurb: 'Pre-cut markers for pallet bays, storage locations and pedestrian routes. Faster than taping full boxes and they use far less material.' },
-    signs:  { label: 'Safety floor signs',       heading: 'Safety floor signs',       blurb: 'Large-format laminated floor stickers that carry a message people read from a distance. Other designs are available on request.' }
+    signs:  { label: 'Safety floor signs',       heading: 'Safety floor signs',       blurb: 'Large-format floor stickers that carry a message people read from a distance. Other designs are available on request.' }
   };
 
   /* ------------------------------------------------------------------ products */
@@ -74,7 +67,6 @@
       cardType: 'Heavy traffic · 1.3mm',
       cardCopy: 'The thickest tape in the range, built to take constant forklift and wheeled traffic without lifting.',
       badge: '1.3mm · 3 yr warranty',
-      art: 'roll',
       tag: '1.3mm bevelled-edge roll',
       description: 'MightyLine Standard Floor Tape is a premium floor marking solution for busy industrial workplaces where durability matters. At 1.3mm thick, up to seven times thicker than many standard floor tapes, it is built to withstand heavy forklift and industrial wheeled traffic while keeping a clean, professional appearance.',
       descriptionSecondary: 'Unlike painted lines it installs quickly with no production downtime, needs minimal ongoing maintenance and can be removed or reconfigured as your workplace evolves. Backed by a 3-year limited adhesion warranty.',
@@ -97,6 +89,10 @@
         'diagonal-black-white': UP + '2026/05/4-white-tape-with-black-chevrons-100-roll-safety-floor-product-570_1024x1024-removebg-preview.png',
         'diagonal-red-white': UP + '2022/12/4-white-tape-with-red-chevrons-100-roll-safety-floor-product-750_1024x1024-removebg-preview.png'
       },
+      photos: [
+        { src: UP + '2022/04/Factory-Line-Marking-QLD-1.jpg', thumb: UP + '2022/04/Factory-Line-Marking-QLD-1-300x200.jpg', alt: 'MightyLine tape marking aisles in a Queensland factory' },
+        { src: UP + '2025/10/shared-image-17-1.jpg', thumb: UP + '2025/10/shared-image-17-1-768x1024.jpg', alt: 'MightyLine tape on a working warehouse floor' },
+      ],
       prices: { 'default|50mm': 269, 'default|100mm': 314, 'diagonal-black-yellow|50mm': 326, 'diagonal-black-yellow|100mm': 365, 'diagonal-black-white|50mm': 326, 'diagonal-black-white|100mm': 365, 'diagonal-red-white|50mm': 326, 'diagonal-red-white|100mm': 365 },
       priceLabel: 'Price per roll',
       purchaseNote: 'Confirm the ambient temperature is above 10&deg;C and the floor is clean, dry and oil free. Call <a href="tel:1300590505">1300 590 505</a> if you are unsure whether your surface suits tape.',
@@ -142,7 +138,6 @@
       cardType: 'Sub-zero · proven to -29°C',
       cardCopy: 'The tape to use where standard floor markings peel, crack or lift in cold storage.',
       badge: 'Proven to -29°C',
-      art: 'roll',
       tag: 'Freezer-rated adhesive',
       description: 'MightyLine X-Treme Freezer Tape is built to withstand the extreme temperatures found in cold, freezer storage and warehouse environments. It is proven at temperatures as low as -29&deg;C, where standard floor marking adhesives commonly fail.',
       descriptionSecondary: 'It is designed to take a beating from industrial wheel traffic, which is what gives us the confidence to offer a 2-year limited warranty on it.',
@@ -154,6 +149,9 @@
         white: UP + '2019/07/tape-white-both.png',
         red: UP + '2019/07/tape-red-both.png'
       },
+      photos: [
+        { src: UP + '2022/04/Food-Processing-Line-Marking-VIC.jpg', thumb: UP + '2022/04/Food-Processing-Line-Marking-VIC-300x200.jpg', alt: 'X-Treme Freezer tape in a Victorian food processing facility' },
+      ],
       prices: { 'default|50mm': 269, 'default|100mm': 314 },
       priceLabel: 'Price per roll',
       purchaseNote: 'Cold-store floors need to be dry and frost free at the point of installation. Call <a href="tel:1300590505">1300 590 505</a> and we will talk through the install window.',
@@ -192,7 +190,6 @@
       cardType: 'Medium traffic · 0.9mm',
       cardCopy: 'A 0.9mm roll for walkways, storage areas and workstation boundaries in medium-traffic environments.',
       badge: '0.9mm · 50mm x 30m',
-      art: 'roll',
       tag: '0.9mm · 50mm x 30m roll',
       description: 'The Lean Line 960 Floor Tape is designed for workplaces that need a durable yet flexible floor marking solution. Ideal for medium traffic environments, it gives clear visual boundaries for walkways, storage areas and workstations while allowing layouts to be updated as operations evolve.',
       descriptionSecondary: 'With quick installation and no curing time, it is a practical alternative to painted floor markings at roughly a third the cost of the heavy-duty range.',
@@ -242,8 +239,8 @@
 
     'lean-line-570': {
       group: 'tape',
-      slug: 'lean-line-570-floor-marking-tape-50mm-x-30m',
-      canonical: 'https://cotewell.com.au/product/lean-line-570-floor-marking-tape-50mm-x-30m/',
+      slug: 'lean-line-570-floor-marking-tape-50mm-x-30m-roll',
+      canonical: 'https://cotewell.com.au/product/lean-line-570-floor-marking-tape-50mm-x-30m-roll/',
       shortName: 'Lean Line 570',
       breadcrumb: 'Lean Line 570',
       title: 'Lean Line 570 Floor Marking Tape | 50mm x 30m | Cotewell',
@@ -252,12 +249,11 @@
       titleHtml: 'Lean Line 570<br><em>Floor Marking</em><br>Tape',
       longTitle: true,
       cardType: 'Low traffic · 0.5mm',
-      cardCopy: 'The lowest-cost way to lay out a 5S floor plan before committing to a heavier tape.',
+      cardCopy: 'An easy-to-install-yourself tape for low traffic areas, walkways, storage locations and workstations.',
       badge: '0.5mm · from $79',
-      art: 'roll',
       tag: '0.5mm · 50mm x 30m roll',
       description: 'The Lean Line 570 Floor Tape is a fast and effective way to create clear visual boundaries throughout your facility, though it is only recommended for low traffic applications. It helps define work areas, walkways, storage locations and equipment zones without the downtime or mess of painted lines.',
-      descriptionSecondary: 'At $79 + GST a roll it is the cheapest way to trial a floor layout, confirm it works, then upgrade the high-traffic runs to a thicker tape.',
+      descriptionSecondary: 'A fast, flexible option for facilities that want clear visual management without the downtime or mess of painted lines, and it can be lifted and re-laid as the layout changes.',
       colours: LEAN_COLOURS,
       widths: ['50mm'],
       defaultColour: 'yellow',
@@ -279,7 +275,7 @@
       priceLabel: 'Price per roll',
       purchaseNote: 'Low traffic only. If forklifts cross the line, specify Lean Line 960 or MightyLine instead. Call <a href="tel:1300590505">1300 590 505</a> if you are unsure.',
       featuresTitle: 'Lay out the plan<br>before you commit.',
-      featuresIntro: 'The cheapest roll in the range, best used to prove a layout works before you invest in a heavier tape.',
+      featuresIntro: 'A fast, flexible option for organising a workplace through clear visual management in low traffic areas.',
       features: [
         ['0.5mm thick', 'Low-range marking tape for indoor, low traffic use.'],
         ['Peel-and-stick install', 'Quick installation with no production downtime.'],
@@ -317,7 +313,6 @@
       cardType: 'Outdoor · P5 slip rated',
       cardCopy: 'A 1.3mm reflective, UV-resistant tape for car parks, vehicle lanes and outdoor walkways on asphalt or concrete.',
       badge: 'Outdoor · reflective',
-      art: 'roll',
       tag: 'P5 slip rated · reflective',
       description: 'The Cotewell External Floor Tape is engineered to withstand the conditions outdoor environments throw at it. From rain and UV exposure to heavy pedestrian traffic, it gives a durable, highly visible alternative to painted lines on asphalt and concrete surfaces.',
       descriptionSecondary: 'One of the thickest quality external tapes on the market at 1.3mm, with a P5 slip rating and a reflective face for low-light and night-time visibility.',
@@ -330,6 +325,11 @@
         blue: UP + '2022/06/Cotewell-External-Tape-Yellow.png',
         green: UP + '2022/06/Cotewell-External-Tape-Yellow.png'
       },
+      photos: [
+        { src: UP + '2022/07/External-Tape-1024x768.jpg', thumb: UP + '2022/07/External-Tape-300x225.jpg', alt: 'Cotewell external line marking tape on an outdoor asphalt surface' },
+        { src: UP + '2022/07/External-Tape-Crossing-1024x768.jpg', thumb: UP + '2022/07/External-Tape-Crossing-300x225.jpg', alt: 'External line marking tape marking a pedestrian crossing' },
+        { src: UP + '2022/07/External-Green-Red-1024x768.jpg', thumb: UP + '2022/07/External-Green-Red-300x225.jpg', alt: 'Green and red external line marking tape on concrete' },
+      ],
       prices: { 'default|-': 259 },
       priceLabel: 'Price per roll',
       purchaseNote: 'Surface preparation drives the result outdoors. Call <a href="tel:1300590505">1300 590 505</a> before ordering so we can check the surface is suitable.',
@@ -371,7 +371,6 @@
       cardType: 'Pallet bays · corner markers',
       cardCopy: 'L-shaped corner markers that define pallet bays with a fraction of the material a taped box needs.',
       badge: 'From $8.50 + GST',
-      art: 'angle',
       tag: '152 x 50mm and 152 x 75mm',
       description: 'MightyLine 5S Angle Shapes are a simple way to clearly define pallet locations, storage areas and designated equipment zones throughout your facility. Rather than marking out complete boxes with tape, these durable L-shaped markers identify the corners of each pallet bay, giving clear visual guidance while using less material.',
       descriptionSecondary: 'Ideal for implementing or maintaining a 5S workplace: they improve organisation, reduce clutter and make it easier for staff to return pallets and equipment to the right location.',
@@ -428,10 +427,9 @@
       cardType: 'Shared corners · 5S layouts',
       cardCopy: 'T markers for where two bays meet, so a run of pallet locations reads as one continuous grid.',
       badge: 'From $8.50 + GST',
-      art: 'tee',
-      tag: '152 x 152 x 50mm',
-      description: 'Patented MightyLine floor marking T shapes in blue, yellow, green, orange, red, black and white. The 50mm T measures 152 x 152 x 50mm and is also available in a 75mm width.',
-      descriptionSecondary: 'T shapes are used where two pallet bays meet, so a full row of locations can be marked without doubling up on corner markers. They carry a 3-year limited warranty.',
+      tag: '50mm and 75mm widths',
+      description: 'MightyLine 5S T-Shapes make it easy to create clearly defined pallet bays, storage locations and work areas without marking complete boxes on the floor. Available in blue, yellow, green, orange, red, black and white, in 50mm and 75mm widths.',
+      descriptionSecondary: 'Built from durable Mighty Line material, they are ideal for creating multiple adjoining pallet or storage bays and help maintain consistent layouts in busy industrial workplaces.',
       colours: SHAPE_COLOURS,
       widths: ['50mm', '75mm'],
       defaultColour: 'yellow',
@@ -464,7 +462,7 @@
         'Available in 50mm and 75mm widths'
       ],
       applications: APPLICATION_LIST,
-      specs: [['Size','152 x 152mm'],['Widths','50mm and 75mm'],['Colours','Yellow, blue, green, orange, red, black, white'],['Warranty','3-year limited warranty'],['Sold as','Individual markers'],['Environment','Internal only'],['Installation','Peel and stick']],
+      specs: [['Widths','50mm and 75mm'],['Colours','Yellow, blue, green, orange, red, black, white'],['Best for','Adjoining pallet or storage bays'],['Sold as','Individual markers'],['Environment','Internal only'],['Installation','Peel and stick']],
       related: ['angle-shape', 'arrow', 'footprints']
     },
 
@@ -479,12 +477,11 @@
       eyebrow: '5S floor marking shape',
       titleHtml: 'MightyLine<br><em>5S</em><br>Arrow',
       cardType: 'Direction · egress routes',
-      cardCopy: 'Peel-and-stick arrows that direct traffic flow and point pedestrians towards safety in an emergency.',
+      cardCopy: 'Peel-and-stick arrows that direct pedestrian and vehicle movement along designated routes.',
       badge: '$12.50 + GST each',
-      art: 'arrow',
       tag: '254mm long · 152mm wide',
-      description: 'Patented MightyLine floor marking arrows in yellow, green, red, blue and orange. Each arrow is 254mm long and 152mm wide at the widest point.',
-      descriptionSecondary: 'MightyLine 5S arrows point pedestrians towards safety in emergency situations and can also be used to direct traffic flow through aisles and one-way routes.',
+      description: 'MightyLine 5S Arrows are a simple, highly visible way to direct pedestrian and vehicle movement through busy industrial workplaces. Available in yellow, green, red, blue and orange, each arrow is 254mm long and 152mm wide.',
+      descriptionSecondary: 'Built with Mighty Line heavy-duty construction, they help create clear traffic flow, reinforce designated routes and support a safer, more organised 5S workplace.',
       colours: ['yellow', 'green', 'red', 'blue', 'orange'],
       defaultColour: 'yellow',
       images: {
@@ -496,9 +493,9 @@
       },
       prices: { 'default|-': 12.5 },
       priceLabel: 'Price each',
-      purchaseNote: 'Green is the convention for egress routes and yellow for traffic flow. Call <a href="tel:1300590505">1300 590 505</a> if you want the colour scheme checked.',
+      purchaseNote: 'Available in five colours so arrows can be matched to your existing visual management system. Call <a href="tel:1300590505">1300 590 505</a> if you want the colour scheme checked.',
       featuresTitle: 'Point people<br>the right way.',
-      featuresIntro: 'Two jobs: direct forklift and pedestrian flow day to day, and point at the exit when it matters.',
+      featuresIntro: 'Reinforces designated routes and one-way systems so forklift and pedestrian flow stays predictable.',
       features: [
         ['254mm long', '152mm wide at the widest point for visibility down an aisle.'],
         ['Emergency egress', 'Points pedestrians towards safety in emergency situations.'],
@@ -531,10 +528,9 @@
       cardType: 'Walkways · 2 per pack',
       cardCopy: 'Footprint decals laid in the direction of travel to show pedestrians where the safe aisle runs.',
       badge: '$14.70 + GST per pair',
-      art: 'foot',
       tag: '241mm long · 89mm wide',
       description: 'Patented Mighty Line floor marking footprint stickers in yellow, red, green, blue and orange, supplied two per pack. Each footprint is 241mm long and 89mm wide.',
-      descriptionSecondary: 'Footprints show pedestrians the safety walkway. Peel and stick them in the direction of the safety aisle-way and the route reads instantly, even to visitors who have never been on site.',
+      descriptionSecondary: 'Peel and stick them in the direction of the safety aisle-way to reinforce designated pedestrian walkways and improve guidance, safety and workplace organisation.',
       colours: ['yellow', 'green', 'red', 'blue', 'orange'],
       defaultColour: 'yellow',
       images: {
@@ -582,7 +578,6 @@
       cardType: 'Sub-zero · 2 per pack',
       cardCopy: 'Footprint markers with adhesive built for freezers and cold rooms, where standard decals lift.',
       badge: '$20.00 + GST per pair',
-      art: 'foot',
       tag: 'Sub-zero adhesive',
       description: 'The Mighty Line X-Treme Freezer Footprints give a simple, highly visible way to guide pedestrian traffic through cold rooms and freezer facilities. They are designed specifically for sub-zero environments, where they hold adhesion in conditions that cause standard floor markings to fail.',
       descriptionSecondary: 'Peel and stick them in the direction of the safety aisle-way, exactly as you would the standard footprints, and the route stays readable through the cold chain.',
@@ -632,9 +627,6 @@
       cardType: 'Intersections · 910mm',
       cardCopy: 'A 910mm stop sign on the floor, for intersections and forklift crossings where a wall sign is missed.',
       badge: '910mm wide',
-      art: 'sign',
-      signText: 'STOP',
-      signColour: '#c8102e',
       tag: '910mm wide · laminated',
       description: 'The MightyLine Stop Sign Floor Sticker gives a bold visual reminder for pedestrians and vehicle operators to stop and assess their surroundings before proceeding. It suits warehouse intersections, forklift crossings and other high-risk areas.',
       descriptionSecondary: 'It reinforces workplace safety procedures while reducing the need for constant verbal reminders, and it sits in the one place people are already looking: the floor ahead of them.',
@@ -680,9 +672,6 @@
       cardType: 'Shared aisles · 610mm',
       cardCopy: 'A 610mm warning sign for the point where pedestrians walk into a forklift route.',
       badge: '610mm wide',
-      art: 'sign',
-      signText: 'FORKLIFT',
-      signColour: '#f2c200',
       tag: '610mm wide · industrial strength',
       description: 'Warning Forklift Traffic, MightyLine floor sign, industrial strength, 610mm wide. MightyLine safety floor signs are a strong floor marking tool for 5S facilities, lean operations and general warehouse safety.',
       descriptionSecondary: 'Place it where a pedestrian route enters a shared aisle, so the warning is in front of people before they step into the traffic lane. Other designs are available on request.',
@@ -728,9 +717,6 @@
       cardType: 'Access points · 610mm',
       cardCopy: 'Marks the floor in front of exits, switchboards and fire equipment so nothing gets stored there.',
       badge: '610mm wide',
-      art: 'sign',
-      signText: 'KEEP CLEAR',
-      signColour: '#ee7203',
       tag: '610mm wide · laminated',
       description: 'The Keep Clear, Do Not Block Floor Sticker is industrial strength and holds up to a medium amount of traffic. It gives an instant visual reminder to keep important access points free from obstruction.',
       descriptionSecondary: 'It suits emergency exits, electrical switchboards, fire equipment and access zones, clearly communicating where items should never be stored. Other designs are available on request.',
@@ -775,7 +761,7 @@
 
   var FAQS = [
     { q: 'How long does line marking tape last?',
-      a: 'It depends on the tape and the traffic. Lean Line 570 at 0.5mm carries a 1-year warranty and suits foot traffic. Lean Line 960 at 0.9mm carries 2 years for medium traffic. MightyLine at 1.3mm carries a 3-year limited adhesion warranty and is the only one specified for constant forklift movement. Putting a light tape on a forklift route is the single most common reason tape fails early.' },
+      a: 'It depends on the tape and the traffic. Lean Line 570 at 0.5mm carries a 1-year warranty and suits foot traffic. Lean Line 960 at 0.9mm carries 2 years for medium traffic. MightyLine at 1.3mm carries a 3-year limited adhesion warranty and is the one built to withstand heavy industrial forklift and wheeled traffic. Putting a light tape on a forklift route is the single most common reason tape fails early.' },
     { q: 'Is floor marking tape better than painted lines?',
       a: 'For most internal industrial floors, yes. Tape installs in hours with no curing time and no production downtime, it can be lifted and re-laid when the layout changes, and MightyLine saves up to 60% in ongoing maintenance compared with painted line marking. Paint still has a place on very rough or heavily contaminated surfaces where tape will not bond.' },
     { q: 'Can I use line marking tape outdoors?',
@@ -802,12 +788,6 @@
     if (c.hex2) return 'background:repeating-linear-gradient(135deg,' + c.hex + ' 0 6px,' + c.hex2 + ' 6px 12px)';
     if (c.clear) return 'background:repeating-linear-gradient(135deg,#e9eaec 0 5px,#c9ccd1 5px 10px)';
     return 'background:' + c.hex;
-  }
-
-  function artStyle(product, colourKey) {
-    var c = COLOURS[colourKey] || { hex: product.signColour || '#f2c200' };
-    var a = c.hex, b = c.hex2 || c.hex;
-    return '--art-a:' + a + ';--art-b:' + b + ';';
   }
 
   function priceFor(product, colour, width) {
@@ -854,14 +834,15 @@
   var ogUrl = $('meta[property="og:url"]');
   var ogImage = $('meta[property="og:image"]');
   var productMedia = $('[data-product-media]');
-  var productArt = $('[data-product-art]');
+  var productThumbs = $('[data-product-thumbs]');
+  var productPhotos = $('[data-product-photos]');
   var productImg = $('[data-product-image]');
   var productTitle = $('[data-product-title]');
   var featureGrid = $('[data-feature-grid]');
 
   var activeView = 'category';
   var activeProduct = null;
-  var selection = { colour: null, width: null };
+  var selection = { colour: null, width: null, photo: null };
   var lastY = 0;
   var ticking = false;
 
@@ -871,10 +852,9 @@
     var colour = p.defaultColour;
     var img = productImage(p, colour);
     return '<a class="tape-card" href="#' + key + '" data-group="' + p.group + '" data-product-route="' + key + '">' +
-      '<div class="tape-card__media art-' + p.art + '" style="' + artStyle(p, colour) + '">' +
+      '<div class="tape-card__media">' +
         '<span class="product-badge">' + p.badge + '</span>' +
-        '<div class="product-art art-' + p.art + '" aria-hidden="true">' + (p.signText ? '<b>' + p.signText + '</b>' : '') + '</div>' +
-        (img ? '<img src="' + img + '" alt="' + p.shortName + '" loading="lazy" onerror="window.cwPhotoFailed &amp;&amp; window.cwPhotoFailed(this)">' : '') +
+        (img ? '<img src="' + img + '" alt="' + p.shortName + '" loading="lazy">' : '') +
       '</div>' +
       '<div class="tape-card__copy">' +
         '<p class="mono">' + p.cardType + '</p>' +
@@ -909,8 +889,8 @@
         var p = productData[r.key];
         return '<tr><th scope="row"><a href="#' + r.key + '" data-product-route="' + r.key + '">' + p.shortName + '</a></th>' +
           '<td>' + r.thickness + '</td><td>' + r.traffic + '</td><td>' + r.warranty + '</td><td>' + r.env + '</td>' +
-          '<td class="num">' + money(priceFrom(p)) + '</td>' +
-          '<td class="go"><a href="#' + r.key + '" data-product-route="' + r.key + '" aria-label="View ' + p.shortName + '">&rarr;</a></td></tr>';
+          '<td class="num">' + money(priceFrom(p)) + '<small>+ GST</small></td>' +
+          '<td class="go"><a href="#' + r.key + '" data-product-route="' + r.key + '" aria-label="View ' + p.shortName + '">View <span aria-hidden="true">&rarr;</span></a></td></tr>';
       }).join('');
       body.dataset.rendered = '1';
     }
@@ -935,6 +915,45 @@
   }
 
   /* ------------------------------------------------------------------ product render */
+  /* Colour thumbnails. Several products point every variant at one photograph
+     (the live external tape does exactly this), so collapse duplicates and drop
+     the rail entirely when there is only one distinct image left to show. */
+  function renderThumbs(product) {
+    if (!productThumbs) return;
+    var imgs = product.images || {};
+    var seen = {};
+    var keys = (product.colours || []).filter(function (c) {
+      if (!imgs[c] || seen[imgs[c]]) return false;
+      seen[imgs[c]] = 1;
+      return true;
+    });
+    if (keys.length < 2) { productThumbs.hidden = true; productThumbs.innerHTML = ''; return; }
+    productThumbs.hidden = false;
+    productThumbs.innerHTML =
+      '<span class="gallery-label mono">Colours</span>' +
+      '<div class="gallery-row">' + keys.map(function (c) {
+        return '<button type="button" class="product-thumb" data-colour="' + c + '" aria-pressed="false" ' +
+          'title="' + COLOURS[c].label + '" aria-label="' + product.shortName + ' in ' + COLOURS[c].label + '">' +
+          '<img src="' + imgs[c] + '" alt="" loading="lazy"></button>';
+      }).join('') + '</div>';
+  }
+
+  /* Photographs of the product installed on a real floor, taken from the live
+     product gallery on cotewell.com.au. */
+  function renderPhotos(product) {
+    if (!productPhotos) return;
+    var list = product.photos || [];
+    if (!list.length) { productPhotos.hidden = true; productPhotos.innerHTML = ''; return; }
+    productPhotos.hidden = false;
+    productPhotos.innerHTML =
+      '<span class="gallery-label mono">On site <b>' + list.length + '</b></span>' +
+      '<div class="gallery-row gallery-row--photos">' + list.map(function (ph, i) {
+        return '<button type="button" class="product-photo" data-photo="' + i + '" aria-pressed="false" ' +
+          'title="' + ph.alt + '" aria-label="' + ph.alt + '">' +
+          '<img src="' + (ph.thumb || ph.src) + '" alt="" loading="lazy"></button>';
+      }).join('') + '</div>';
+  }
+
   function renderVariants(product) {
     var colourBlock = $('[data-colour-block]');
     var widthBlock = $('[data-width-block]');
@@ -979,28 +998,34 @@
 
     if (selected) selected.textContent = selection.colour ? COLOURS[selection.colour].label : '';
     if (swatchLabel) {
-      swatchLabel.hidden = !selection.colour;
-      swatchLabel.textContent = selection.colour ? COLOURS[selection.colour].label + (selection.width ? ' · ' + selection.width : '') : '';
+      var showingPhoto = selection.photo != null && product.photos && product.photos[selection.photo];
+      swatchLabel.hidden = !selection.colour && !showingPhoto;
+      swatchLabel.textContent = showingPhoto ? 'On site'
+        : (selection.colour ? COLOURS[selection.colour].label + (selection.width ? ' · ' + selection.width : '') : '');
     }
 
-    var src = productImage(product, selection.colour);
-    if (productImg) {
-      if (productMedia) productMedia.classList.remove('no-photo');
-      if (src) {
-        productImg.style.display = '';
-        productImg.src = src;
-        productImg.alt = product.shortName + (selection.colour ? ' in ' + COLOURS[selection.colour].label : '');
-      } else {
-        productImg.removeAttribute('src');
-        productImg.style.display = 'none';
-        if (productMedia) productMedia.classList.add('no-photo');
-      }
+    var photo = selection.photo != null && product.photos ? product.photos[selection.photo] : null;
+    var src = photo ? photo.src : productImage(product, selection.colour);
+    if (productImg && src) {
+      productImg.src = src;
+      productImg.alt = photo ? photo.alt
+        : product.shortName + (selection.colour ? ' in ' + COLOURS[selection.colour].label : '');
     }
-    if (productArt) {
-      productArt.className = 'product-art art-' + product.art;
-      productArt.setAttribute('style', artStyle(product, selection.colour));
-      productArt.innerHTML = product.signText ? '<b>' + product.signText + '</b>' : '';
-    }
+    if (productMedia) productMedia.classList.toggle('product-media--photo', !!photo);
+
+    $$('[data-product-thumbs] .product-thumb').forEach(function (t) {
+      var on = !photo && t.getAttribute('data-colour') === selection.colour;
+      t.classList.toggle('is-active', on);
+      t.setAttribute('aria-pressed', String(on));
+    });
+    $$('[data-product-photos] .product-photo').forEach(function (t) {
+      var on = !!photo && Number(t.getAttribute('data-photo')) === selection.photo;
+      t.classList.toggle('is-active', on);
+      t.setAttribute('aria-pressed', String(on));
+    });
+
+    var zip = $('[data-zip-line]');
+    if (zip) zip.hidden = false;
 
     var value = priceFor(product, selection.colour, selection.width);
     var valueEl = $('[data-purchase-value]');
@@ -1024,7 +1049,7 @@
 
     productTitle.innerHTML = p.titleHtml;
     productTitle.classList.toggle('is-long', !!p.longTitle);
-    if (productMedia) productMedia.className = 'product-media reveal is-visible media-' + p.art;
+    if (productMedia) productMedia.className = 'product-media';
 
     $('[data-spec-strip]').innerHTML = p.specs.slice(0, 3).map(function (s) {
       return '<span><b>' + s[1] + '</b>' + s[0] + '</span>';
@@ -1045,17 +1070,19 @@
       var r = productData[k];
       var img = productImage(r, r.defaultColour);
       return '<a class="related-product" href="#' + k + '" data-product-route="' + k + '">' +
-        '<div class="related-product__media art-' + r.art + '" style="' + artStyle(r, r.defaultColour) + '">' +
-          '<div class="product-art art-' + r.art + '" aria-hidden="true">' + (r.signText ? '<b>' + r.signText + '</b>' : '') + '</div>' +
-          (img ? '<img src="' + img + '" alt="' + r.shortName + '" loading="lazy" onerror="window.cwPhotoFailed &amp;&amp; window.cwPhotoFailed(this)">' : '') +
+        '<div class="related-product__media">' +
+          (img ? '<img src="' + img + '" alt="' + r.shortName + '" loading="lazy">' : '') +
         '</div>' +
         '<div class="related-product__copy"><p class="mono">' + r.cardType + '</p><h3>' + r.shortName + '</h3><p>' + r.cardCopy + '</p>' +
         '<span class="text-link">From ' + money(priceFrom(r)) + ' + GST</span></div></a>';
     }).join('');
 
     renderVariants(p);
+    renderThumbs(p);
+    renderPhotos(p);
     selection.colour = p.defaultColour || null;
     selection.width = p.widths && p.widths.length ? p.widths[0] : null;
+    selection.photo = null;
     syncVariantUi(p);
 
     if (confirmation) confirmation.hidden = true;
@@ -1220,9 +1247,25 @@
     var chip = e.target.closest ? e.target.closest('.filter-chip') : null;
     if (chip) { applyFilter(chip.getAttribute('data-filter')); return; }
 
+    var thumb = e.target.closest ? e.target.closest('.product-thumb') : null;
+    if (thumb && activeProduct) {
+      selection.colour = thumb.getAttribute('data-colour');
+      selection.photo = null;
+      syncVariantUi(productData[activeProduct]);
+      return;
+    }
+
+    var photoBtn = e.target.closest ? e.target.closest('.product-photo') : null;
+    if (photoBtn && activeProduct) {
+      selection.photo = Number(photoBtn.getAttribute('data-photo'));
+      syncVariantUi(productData[activeProduct]);
+      return;
+    }
+
     var swatch = e.target.closest ? e.target.closest('.swatch') : null;
     if (swatch && activeProduct) {
       selection.colour = swatch.getAttribute('data-colour');
+      selection.photo = null;
       syncVariantUi(productData[activeProduct]);
       return;
     }

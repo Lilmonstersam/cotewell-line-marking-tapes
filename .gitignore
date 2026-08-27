@@ -24,3 +24,4 @@ _site/
 
 # Scratch folder left by the sandboxed git init; safe to delete.
 _git_lock_trash/
+.fuse_hidden*
