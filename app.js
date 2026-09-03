@@ -55,6 +55,7 @@
 
     /* ---------------------------------------------------------- TAPE */
     'mightyline-tape': {
+      keyMetrics: [['Thickness','1.3mm'],['Traffic rating','Heavy forklift'],['Warranty','3 years']],
       group: 'tape',
       slug: 'mighty-line-marking-tape',
       canonical: 'https://cotewell.com.au/product/mighty-line-marking-tape/',
@@ -95,7 +96,7 @@
       ],
       prices: { 'default|50mm': 269, 'default|100mm': 314, 'diagonal-black-yellow|50mm': 326, 'diagonal-black-yellow|100mm': 365, 'diagonal-black-white|50mm': 326, 'diagonal-black-white|100mm': 365, 'diagonal-red-white|50mm': 326, 'diagonal-red-white|100mm': 365 },
       priceLabel: 'Price per roll',
-      purchaseNote: 'Confirm the ambient temperature is above 10&deg;C and the floor is clean, dry and oil free. Call <a href="tel:1300590505">1300 590 505</a> if you are unsure whether your surface suits tape.',
+      purchaseNote: 'Confirm the floor is clean, dry and oil free. Call <a href="tel:1300590505">1300 590 505</a> if you are unsure whether your surface suits tape.',
       featuresTitle: 'Seven times thicker<br>than standard tape.',
       featuresIntro: 'MightyLine is the tape to specify when forklifts run the line every day. It costs more per roll and it stops the re-taping cycle.',
       features: [
@@ -110,7 +111,6 @@
         ['Repairable in sections', 'Damaged runs can be replaced without redoing the whole line.']
       ],
       notes: [
-        'Only suitable where the ambient temperature stays above 10&deg;C',
         'Ensure the surface is clean, dry and oil free before installation',
         'Do not apply tape lengthways along floor joints',
         'Not suitable for external use',
@@ -120,12 +120,13 @@
         'Not recommended for rough, damaged or uneven concrete'
       ],
       applications: ['Pedestrian walkways','Forklift routes','Pallet storage bays','Equipment parking areas','Material storage zones','Workstations','Production lines','Keep-clear zones','Safety and exclusion zones','Industrial facilities'],
-      specs: [['Thickness','1.3mm'],['Widths','50mm and 100mm'],['Colours','14, including three diagonal hazard patterns'],['Warranty','3-year limited adhesion warranty'],['Traffic rating','Heavy forklift and wheeled traffic'],['Environment','Internal only, above 10&deg;C'],['Edges','Bevelled'],['Installation','Peel and stick, no curing time']],
+      specs: [['Thickness','1.3mm'],['Widths','50mm and 100mm'],['Colours','14, including three diagonal hazard patterns'],['Warranty','3-year limited adhesion warranty'],['Traffic rating','Heavy forklift and wheeled traffic'],['Environment','Internal only'],['Edges','Bevelled'],['Installation','Peel and stick, no curing time']],
       extra: 'Customised shapes, barcodes and symbols are available. Send our team the artwork or the message and they will quote it.',
       related: ['freezer-tape', 'lean-line-960', 'angle-shape']
     },
 
     'freezer-tape': {
+      keyMetrics: [['Thickness','1.3mm'],['Traffic rating','Industrial wheeled'],['Warranty','2 years']],
       group: 'tape',
       slug: 'mighty-line-x-treme-freezer-tape',
       canonical: 'https://cotewell.com.au/product/mighty-line-x-treme-freezer-tape/',
@@ -152,7 +153,7 @@
       photos: [
         { src: UP + '2022/04/Food-Processing-Line-Marking-VIC.jpg', thumb: UP + '2022/04/Food-Processing-Line-Marking-VIC-300x200.jpg', alt: 'X-Treme Freezer tape in a Victorian food processing facility' },
       ],
-      prices: { 'default|50mm': 269, 'default|100mm': 314 },
+      prices: { 'default|50mm': 417, 'default|100mm': 417 },
       priceLabel: 'Price per roll',
       purchaseNote: 'Cold-store floors need to be dry and frost free at the point of installation. Call <a href="tel:1300590505">1300 590 505</a> and we will talk through the install window.',
       featuresTitle: 'Marking that holds<br>at -29&deg;C.',
@@ -177,6 +178,7 @@
     },
 
     'lean-line-960': {
+      keyMetrics: [['Thickness','0.9mm'],['Traffic rating','Medium'],['Warranty','2 years']],
       group: 'tape',
       slug: 'lean-line-960-floor-marking-tape-50mm-x-30m-roll',
       canonical: 'https://cotewell.com.au/product/lean-line-960-floor-marking-tape-50mm-x-30m-roll/',
@@ -225,7 +227,6 @@
       ],
       notes: [
         'Not suitable for external use',
-        'Suitable where ambient temperature remains above 10&deg;C',
         'Best applied to clean, dry and oil-free surfaces',
         'Do not apply over existing paint or floor tape',
         'Avoid applying the tape lengthways across floor joints',
@@ -233,11 +234,12 @@
         'Warranty does not cover damage'
       ],
       applications: ['Walkways','Storage locations','Workstation boundaries','Equipment storage areas','Medium foot traffic and light wheeled traffic environments'],
-      specs: [['Thickness','0.9mm'],['Roll size','50mm x 30m'],['Colours','12, including five diagonal hazard patterns'],['Warranty','2 years'],['Traffic rating','Medium foot traffic, light wheeled traffic'],['Environment','Internal only, above 10&deg;C'],['Edges','Square cut'],['Installation','Peel and stick, no curing time']],
+      specs: [['Thickness','0.9mm'],['Roll size','50mm x 30m'],['Colours','12, including five diagonal hazard patterns'],['Warranty','2 years'],['Traffic rating','Medium foot traffic, light wheeled traffic'],['Environment','Internal only'],['Edges','Square cut'],['Installation','Peel and stick, no curing time']],
       related: ['lean-line-570', 'mightyline-tape', 'external-tape']
     },
 
     'lean-line-570': {
+      keyMetrics: [['Thickness','0.5mm'],['Traffic rating','Low'],['Warranty','1 year']],
       group: 'tape',
       slug: 'lean-line-570-floor-marking-tape-50mm-x-30m-roll',
       canonical: 'https://cotewell.com.au/product/lean-line-570-floor-marking-tape-50mm-x-30m-roll/',
@@ -253,7 +255,7 @@
       badge: '0.5mm · from $79',
       tag: '0.5mm · 50mm x 30m roll',
       description: 'The Lean Line 570 Floor Tape is a fast and effective way to create clear visual boundaries throughout your facility, though it is only recommended for low traffic applications. It helps define work areas, walkways, storage locations and equipment zones without the downtime or mess of painted lines.',
-      descriptionSecondary: 'A fast, flexible option for facilities that want clear visual management without the downtime or mess of painted lines, and it can be lifted and re-laid as the layout changes.',
+      descriptionSecondary: 'A fast, flexible option for facilities that want clear visual management without the downtime or mess of painted lines.',
       colours: LEAN_COLOURS,
       widths: ['50mm'],
       defaultColour: 'yellow',
@@ -282,12 +284,11 @@
         ['1-year warranty', 'Matched to the low-traffic applications it suits.'],
         ['Square-cut edges', 'Clean, professional finish on straight runs.'],
         ['Bright colours', 'Twelve colours and patterns for maximum visibility.'],
-        ['Easily replaced', 'Simple to lift and re-lay when the layout changes.']
+        ['Easily replaced', 'Removes cleanly when the layout changes.']
       ],
       notes: [
         'Not recommended for rough, damaged or porous concrete',
         'Heavy forklift turning or dragging pallets across the tape may reduce lifespan',
-        'Only suitable where ambient temperature is above 10&deg;C',
         'Ensure the surface is clean, dry and oil free before installation',
         'Do not apply tape lengthways along floor joints',
         'Not suitable for external use',
@@ -295,11 +296,12 @@
         'Can be cut to any length to suit your facility layout'
       ],
       applications: ['Walkways','Storage locations','Pallet bays','Equipment parking areas','Production lines','Workstations'],
-      specs: [['Thickness','0.5mm'],['Roll size','50mm x 30m'],['Colours','12, including five diagonal hazard patterns'],['Warranty','1 year'],['Traffic rating','Low traffic, foot traffic'],['Environment','Internal only, above 10&deg;C'],['Edges','Square cut'],['Installation','Peel and stick, no curing time']],
+      specs: [['Thickness','0.5mm'],['Roll size','50mm x 30m'],['Colours','12, including five diagonal hazard patterns'],['Warranty','1 year'],['Traffic rating','Low traffic, foot traffic'],['Environment','Internal only'],['Edges','Square cut'],['Installation','Peel and stick, no curing time']],
       related: ['lean-line-960', 'mightyline-tape', 'arrow']
     },
 
     'external-tape': {
+      keyMetrics: [['Thickness','1.3mm'],['Traffic rating','Vehicle + pedestrian'],['Warranty','3 years']],
       group: 'tape',
       slug: 'cotewell-external-line-marking-tape',
       canonical: 'https://cotewell.com.au/product/cotewell-external-line-marking-tape/',
@@ -359,6 +361,7 @@
 
     /* ---------------------------------------------------------- SHAPES */
     'angle-shape': {
+      keyMetrics: [['Size','152 x 50 / 75mm'],['Colours','7'],['Sold as','Individual']],
       group: 'shapes',
       slug: 'mightyline-5s-angle-shape',
       canonical: 'https://cotewell.com.au/product/mightyline-5s-angle-shape/',
@@ -397,7 +400,7 @@
         ['Faster than taped boxes', 'Quicker and easier to install than taping full rectangles.'],
         ['Uses less material', 'Excellent visibility from a fraction of the tape.'],
         ['Industrial-grade build', 'Durable construction for busy industrial environments.'],
-        ['3-year warranty', 'Repositionable if your layout changes.']
+        ['3-year warranty', 'Removable if your layout changes.']
       ],
       notes: [
         'Internal use only, on clean, dry, smooth floor surfaces',
@@ -415,6 +418,7 @@
     },
 
     't-shape': {
+      keyMetrics: [['Size','152 x 152mm'],['Colours','7'],['Sold as','Individual']],
       group: 'shapes',
       slug: 'mightyline-5s-t-shape',
       canonical: 'https://cotewell.com.au/product/mightyline-5s-t-shape/',
@@ -453,7 +457,7 @@
         ['Seven colours', 'Matches the rest of the MightyLine shape range.'],
         ['3-year limited warranty', 'Same warranty as the MightyLine tape range.'],
         ['Peel and stick', 'No downtime and no curing required.'],
-        ['Repositionable', 'Lift and re-lay when the layout changes.']
+        ['Removable', 'Lifts cleanly when the layout changes.']
       ],
       notes: [
         'Internal use only, on clean, dry, smooth floor surfaces',
@@ -467,6 +471,7 @@
     },
 
     'arrow': {
+      keyMetrics: [['Size','254 x 152mm'],['Colours','5'],['Sold as','Individual']],
       group: 'shapes',
       slug: 'mightyline-5s-arrow',
       canonical: 'https://cotewell.com.au/product/mightyline-5s-arrow/',
@@ -515,21 +520,22 @@
     },
 
     'footprints': {
+      keyMetrics: [['Size','241 x 89mm'],['Colours','5'],['Sold as','Pair']],
       group: 'shapes',
       slug: 'small-footprints-pair',
       canonical: 'https://cotewell.com.au/product/small-footprints-pair/',
       shortName: 'Small Footprints (Pair)',
       breadcrumb: 'Small Footprints',
       title: 'Mighty Line Small Footprints (Pair) | Walkway Markers | Cotewell',
-      descriptionMeta: 'Patented Mighty Line footprint floor stickers, 241mm long and 89mm wide, two per pack. Show pedestrians the safe walkway. Five colours.',
+      descriptionMeta: 'Patented Mighty Line footprint floor stickers, 241mm long and 89mm wide. Show pedestrians the safe walkway. Five colours.',
       eyebrow: 'Pedestrian walkway marker',
       titleHtml: 'Mighty Line<br><em>Small Footprints</em><br>(Pair)',
       longTitle: true,
-      cardType: 'Walkways · 2 per pack',
+      cardType: 'Walkways · sold in pairs',
       cardCopy: 'Footprint decals laid in the direction of travel to show pedestrians where the safe aisle runs.',
       badge: '$14.70 + GST per pair',
       tag: '241mm long · 89mm wide',
-      description: 'Patented Mighty Line floor marking footprint stickers in yellow, red, green, blue and orange, supplied two per pack. Each footprint is 241mm long and 89mm wide.',
+      description: 'Patented Mighty Line floor marking footprint stickers in yellow, red, green, blue and orange, supplied in pairs. Each footprint is 241mm long and 89mm wide.',
       descriptionSecondary: 'Peel and stick them in the direction of the safety aisle-way to reinforce designated pedestrian walkways and improve guidance, safety and workplace organisation.',
       colours: ['yellow', 'green', 'red', 'blue', 'orange'],
       defaultColour: 'yellow',
@@ -547,7 +553,7 @@
       featuresIntro: 'A line tells people where the aisle is. Footprints tell them which way to walk down it.',
       features: [
         ['241 x 89mm', 'Sized to read clearly without dominating the aisle.'],
-        ['Supplied in pairs', 'Two footprints per pack, laid in the direction of travel.'],
+        ['Supplied in pairs', 'Laid in the direction of travel down the walkway.'],
         ['Marks safe walkways', 'Shows pedestrians the designated route through the site.'],
         ['Five colours', 'Yellow, green, red, blue and orange.'],
         ['Patented MightyLine build', 'Same durable construction as the tape range.'],
@@ -560,22 +566,23 @@
         '241mm long and 89mm wide'
       ],
       applications: APPLICATION_LIST,
-      specs: [['Length','241mm'],['Width','89mm'],['Sold as','Pair, two per pack'],['Colours','Yellow, green, red, blue, orange'],['Environment','Internal only'],['Installation','Peel and stick']],
+      specs: [['Length','241mm'],['Width','89mm'],['Sold as','Pair'],['Colours','Yellow, green, red, blue, orange'],['Environment','Internal only'],['Installation','Peel and stick']],
       related: ['freezer-footprints', 'arrow', 'lean-line-570']
     },
 
     'freezer-footprints': {
+      keyMetrics: [['Size','241 x 89mm'],['Colours','3'],['Sold as','Pair']],
       group: 'shapes',
       slug: 'mighty-line-x-treme-freezer-small-footprints-pair',
       canonical: 'https://cotewell.com.au/product/mighty-line-x-treme-freezer-small-footprints-pair/',
       shortName: 'X-Treme Freezer Footprints (Pair)',
       breadcrumb: 'Freezer Footprints',
       title: 'X-Treme Freezer Footprints (Pair) | Cold Room Markers | Cotewell',
-      descriptionMeta: 'Freezer-rated footprint floor stickers for cold rooms and sub-zero storage, where standard markings fail. 241 x 89mm, two per pack, three colours.',
+      descriptionMeta: 'Freezer-rated footprint floor stickers for cold rooms and sub-zero storage, where standard markings fail. 241 x 89mm, supplied in pairs, three colours.',
       eyebrow: 'Cold store walkway marker',
       titleHtml: 'X-Treme Freezer<br><em>Small Footprints</em><br>(Pair)',
       longTitle: true,
-      cardType: 'Sub-zero · 2 per pack',
+      cardType: 'Sub-zero · sold in pairs',
       cardCopy: 'Footprint markers with adhesive built for freezers and cold rooms, where standard decals lift.',
       badge: '$20.00 + GST per pair',
       tag: 'Sub-zero adhesive',
@@ -599,7 +606,7 @@
         ['Highly visible', 'Clear footprint design for low-contrast cold stores.'],
         ['Peel and stick', 'Quick installation with no curing time.'],
         ['Reinforces walkways', 'Marks the designated pedestrian route through the cold chain.'],
-        ['Easy to replace', 'Lift and re-lay when the layout changes.']
+        ['Easy to replace', 'Removes cleanly when the layout changes.']
       ],
       notes: [
         'Designed for indoor freezer and cold room applications only',
@@ -608,12 +615,13 @@
         '241mm long and 89mm wide'
       ],
       applications: ['Cold rooms','Freezer facilities','Food processing plants','Distribution centres','Warehouse walkways','Pedestrian routes','Pick and pack areas','Chilled storage facilities'],
-      specs: [['Length','241mm'],['Width','89mm'],['Sold as','Pair, two per pack'],['Colours','Yellow, white and red'],['Environment','Freezer and cold room, internal'],['Installation','Peel and stick']],
+      specs: [['Length','241mm'],['Width','89mm'],['Sold as','Pair'],['Colours','Yellow, white and red'],['Environment','Freezer and cold room, internal'],['Installation','Peel and stick']],
       related: ['freezer-tape', 'footprints', 'arrow']
     },
 
     /* ---------------------------------------------------------- SIGNS */
     'stop-sign': {
+      keyMetrics: [['Size','910mm wide'],['Message','STOP'],['Finish','Laminated']],
       group: 'signs',
       slug: 'mightyline-floor-sticker-stop-sign',
       canonical: 'https://cotewell.com.au/product/mightyline-floor-sticker-stop-sign/',
@@ -659,6 +667,7 @@
     },
 
     'forklift-sign': {
+      keyMetrics: [['Size','610mm wide'],['Message','Warning Forklift Traffic'],['Finish','Industrial strength']],
       group: 'signs',
       slug: 'mightyline-floor-sticker-warning-forklift-traffic',
       canonical: 'https://cotewell.com.au/product/mightyline-floor-sticker-warning-forklift-traffic/',
@@ -704,6 +713,7 @@
     },
 
     'keep-clear': {
+      keyMetrics: [['Size','610mm wide'],['Message','Keep Clear, Do Not Block'],['Finish','Laminated']],
       group: 'signs',
       slug: 'mightyline-floor-sticker-keep-clear-do-not-block',
       canonical: 'https://cotewell.com.au/product/mightyline-floor-sticker-keep-clear-do-not-block/',
@@ -759,13 +769,38 @@
     { key: 'lean-line-570',   thickness: '0.5mm', traffic: 'Low', warranty: '1 year', env: 'Internal' }
   ];
 
+  /* Learning-centre articles that answer the questions the FAQ cannot cover in a
+     paragraph. Placed under the FAQ so the next click stays on Cotewell. */
+  var ARTICLES = [
+    { href: 'https://cotewell.com.au/sick-of-repainting-your-lines-every-6-months-so-was-this-customer/',
+      img: UP + '2026/08/Customer-Story-CAP-Line-Marking-for-Blog-1024x576.jpg',
+      cat: 'Customer story',
+      title: 'Sick of repainting your lines every 6 months? So was this customer',
+      blurb: 'A concrete plant repainting every six months moved to Cold Applied Plastic. Eighteen months on, the lines are still doing the job.' },
+    { href: 'https://cotewell.com.au/why-line-marking-tape-fails-and-how-to-make-it-last/',
+      img: UP + '2025/11/shared-image-18-225x300.jpg',
+      cat: 'Tape guide',
+      title: 'Why line marking tape fails and how to make it last',
+      blurb: 'Most tape failures are not the tape. They are surface preparation, environment or maintenance. Here is what to get right first.' },
+    { href: 'https://cotewell.com.au/why-line-marking-fails-in-cold-facilities-the-product-you-need/',
+      img: UP + '2025/10/shared-image-17-1-2-225x300.jpg',
+      cat: 'Cold storage',
+      title: 'Why line marking fails in cold facilities',
+      blurb: 'Cold storage breaks standard adhesives. What peeling, cracking markings are telling you, and the product specified for it.' },
+    { href: 'https://cotewell.com.au/what-colours-should-i-use-for-line-marking/',
+      img: UP + '2022/01/Extinguisher-and-Walkway-300x203.jpg',
+      cat: 'Colour standards',
+      title: 'What colours should I use for line marking?',
+      blurb: 'Which colour belongs on walkways, forklift routes, storage bays and fire equipment, with photographs from live sites.' }
+  ];
+
   var FAQS = [
     { q: 'How long does line marking tape last?',
       a: 'It depends on the tape and the traffic. Lean Line 570 at 0.5mm carries a 1-year warranty and suits foot traffic. Lean Line 960 at 0.9mm carries 2 years for medium traffic. MightyLine at 1.3mm carries a 3-year limited adhesion warranty and is the one built to withstand heavy industrial forklift and wheeled traffic. Putting a light tape on a forklift route is the single most common reason tape fails early.' },
     { q: 'Is floor marking tape better than painted lines?',
-      a: 'For most internal industrial floors, yes. Tape installs in hours with no curing time and no production downtime, it can be lifted and re-laid when the layout changes, and MightyLine saves up to 60% in ongoing maintenance compared with painted line marking. Paint still has a place on very rough or heavily contaminated surfaces where tape will not bond.' },
+      a: 'For most internal industrial floors, yes. Tape installs in hours with no curing time and no production downtime, and MightyLine saves up to 60% in ongoing maintenance compared with painted line marking. Paint still has a place on very rough or heavily contaminated surfaces where tape will not bond.' },
     { q: 'Can I use line marking tape outdoors?',
-      a: 'Only the Cotewell External Line Marking Tape. Everything else on this page is specified for internal use above 10°C. The external tape is 1.3mm, P5 slip rated, reflective and UV resistant, and it is designed for asphalt and concrete.' },
+      a: 'Only the Cotewell External Line Marking Tape. Everything else on this page is specified for internal use only. The external tape is 1.3mm, P5 slip rated, reflective and UV resistant, and it is designed for asphalt and concrete.' },
     { q: 'How do I prepare the floor before installing tape?',
       a: 'The surface must be clean, dry and free from dust, grease and oil. Do not apply over existing paint or tape, and avoid running tape lengthways along floor joints. Adhesion and lifespan depend far more on preparation than on the product, so it is worth doing properly.' },
     { q: 'What width should I use for walkways?',
@@ -901,6 +936,21 @@
         return '<details class="faq-item reveal"' + (i === 0 ? ' open' : '') + '><summary><span>' + f.q + '</span></summary><p>' + f.a + '</p></details>';
       }).join('');
       faq.dataset.rendered = '1';
+    }
+
+    var articles = $('[data-article-grid]');
+    if (articles && !articles.dataset.rendered) {
+      articles.innerHTML = ARTICLES.map(function (a) {
+        return '<a class="article-card reveal" href="' + a.href + '">' +
+          '<div class="article-card__media"><img src="' + a.img + '" alt="' + a.title + '" loading="lazy"></div>' +
+          '<div class="article-card__copy">' +
+            '<p class="mono">' + a.cat + '</p>' +
+            '<h3>' + a.title + '</h3>' +
+            '<p>' + a.blurb + '</p>' +
+            '<span class="text-link">Read the article <b>&rarr;</b></span>' +
+          '</div></a>';
+      }).join('');
+      articles.dataset.rendered = '1';
     }
   }
 
@@ -1051,7 +1101,9 @@
     productTitle.classList.toggle('is-long', !!p.longTitle);
     if (productMedia) productMedia.className = 'product-media';
 
-    $('[data-spec-strip]').innerHTML = p.specs.slice(0, 3).map(function (s) {
+    /* Three aligned key metrics, using the same three labels for every product in a
+       group so like-for-like comparison across sibling products actually works. */
+    $('[data-spec-strip]').innerHTML = (p.keyMetrics || p.specs.slice(0, 3)).map(function (s) {
       return '<span><b>' + s[1] + '</b>' + s[0] + '</span>';
     }).join('');
 
