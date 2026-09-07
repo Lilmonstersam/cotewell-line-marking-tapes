@@ -79,7 +79,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .mono {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -254,7 +254,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   margin: 0 0 18px;
   color: rgba(255, 255, 255, 0.76);
   font-family: "IBM Plex Mono", monospace;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -685,7 +685,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 @media (max-width: 1000px) { .feature-grid { grid-template-columns: repeat(2, 1fr); } }
 
 .limitations { display: grid; grid-template-columns: 230px 1fr; gap: 32px; margin-top: 26px; padding: 22px 24px; border: 1px solid var(--line-dark); background: rgba(255,255,255,.45); }
-.limitations strong { color: var(--red); font-size: 9.5px; letter-spacing: .12em; }
+.limitations strong { color: var(--red); font-size: 12px; letter-spacing: .1em; }
 .limitations ul { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 0; padding: 0; list-style: none; }
 .limitations li { color: rgba(0,0,0,.72); font-size: 12.5px; line-height: 1.6; }
 .limitations li::before { content: "•"; margin-right: 8px; color: var(--signal); }
@@ -696,7 +696,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 .project-card:hover { transform: translateY(-5px); border-color: rgba(255,255,255,.38); }
 .project-card__media { position: relative; height: 315px; overflow: hidden; background: #050607; }
 .project-card__media img { width: 100%; height: 100%; object-fit: cover; }
-.project-card__media span { position: absolute; right: 16px; bottom: 16px; padding: 8px 10px; background: var(--red); color: #fff; font-family: "IBM Plex Mono"; font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
+.project-card__media span { position: absolute; right: 16px; bottom: 16px; padding: 8px 10px; background: var(--red); color: #fff; font-family: "IBM Plex Mono"; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
 .project-card__copy { padding: 24px; }
 .project-card__copy .mono { margin: 0 0 14px; color: rgba(255,255,255,.72); }
 .project-card__copy h3 { max-width: 430px; margin: 0 0 20px; font-size: 23px; line-height: 1.08; text-transform: uppercase; }
@@ -710,7 +710,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 .related-product__copy { flex: 1; display: flex; flex-direction: column; padding: 22px; }
 .related-product__copy .mono { margin: 0 0 13px; color: var(--signal); }
 .related-product__copy h3 { margin: 0 0 12px; font-size: 20px; line-height: 1.08; text-transform: uppercase; }
-.related-product__copy > p:not(.mono) { margin: 0 0 22px; color: var(--muted-dark); font-size: 12px; line-height: 1.55; }
+.related-product__copy > p:not(.mono) { margin: 0 0 22px; color: var(--muted-dark); font-size: 16px; line-height: 1.55; }
 .related-product__copy .text-link { align-self: flex-start; margin-top: auto; }
 .product-grid--ink .related-product { border-color: var(--line-light); background: #111315; }
 .product-grid--ink .related-product:hover { border-color: rgba(255,255,255,.38); }
@@ -739,7 +739,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 .compare-table th, .compare-table td {
   padding: 16px 20px;
   border-bottom: 1px solid rgba(255,255,255,.12);
-  font-size: 13.5px;
+  font-size: 16px;
   vertical-align: middle;
 }
 
@@ -752,7 +752,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   background: #17191b;
   color: rgba(255,255,255,.72);
   font-family: "IBM Plex Mono", monospace;
-  font-size: 9.5px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: .12em;
   text-transform: uppercase;
@@ -768,7 +768,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   background: #0d0e0f;
   box-shadow: 1px 0 0 rgba(255,255,255,.12);
   font-family: "Archivo", sans-serif;
-  font-size: 14.5px;
+  font-size: 16px;
   font-weight: 800;
   line-height: 1.15;
   text-transform: uppercase;
@@ -795,13 +795,13 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 .compare-table td { color: rgba(255,255,255,.84); }
 .compare-table td.num {
   font-family: "Archivo", sans-serif;
-  font-size: 14.5px;
+  font-size: 16px;
   font-weight: 800;
   color: var(--white);
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
-.compare-table td.num small { display: block; margin-top: 2px; color: rgba(255,255,255,.5); font-size: 9px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; }
+.compare-table td.num small { display: block; margin-top: 2px; color: rgba(255,255,255,.5); font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; }
 .compare-table td.go { width: 96px; text-align: right; }
 .compare-table td.go a {
   display: inline-flex;
@@ -810,7 +810,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   border-bottom: 1px solid rgba(255,255,255,.35);
   padding-bottom: 2px;
   color: var(--white);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -821,7 +821,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   margin: 10px 0 0;
   color: rgba(255,255,255,.5);
   font-family: "IBM Plex Mono", monospace;
-  font-size: 9.5px;
+  font-size: 12px;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
@@ -1328,7 +1328,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
 .hero-video__frame img { width: 100%; height: 100%; display: block; object-fit: cover; filter: saturate(.75) contrast(1.08); transition: transform 500ms ease, filter 300ms ease; }
 .hero-video__shade { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,.05), rgba(0,0,0,.54)); }
 .hero-video__play { position: absolute; top: 50%; left: 50%; display: grid; width: 68px; height: 68px; place-items: center; border: 1px solid rgba(255,255,255,.82); border-radius: 50%; color: var(--white); font-size: 18px; line-height: 1; transform: translate(-50%, -50%); transition: background 180ms ease, color 180ms ease, transform 180ms ease; }
-.hero-video__index { position: absolute; top: 18px; left: 18px; color: var(--white); font-family: "IBM Plex Mono", monospace; font-size: 9px; letter-spacing: .14em; text-transform: uppercase; }
+.hero-video__index { position: absolute; top: 18px; left: 18px; color: var(--white); font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
 .hero-video__frame:hover img { transform: scale(1.035); filter: saturate(.92) contrast(1.04); }
 .hero-video__frame:hover .hero-video__play, .hero-video__frame:focus-visible .hero-video__play { background: var(--white); color: var(--black); transform: translate(-50%, -50%) scale(1.06); }
 .hero-video__frame:focus-visible { outline: 2px solid var(--white); outline-offset: 6px; }
@@ -1347,7 +1347,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
    Cold Applied Plastic
    ========================================================================= */
 .cap-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 48px; align-items: start; }
-.cap-copy p { margin: 0 0 16px; max-width: 62ch; color: var(--muted-dark); font-size: 15px; line-height: 1.65; }
+.cap-copy p { margin: 0 0 16px; max-width: 62ch; color: var(--muted-dark); font-size: 16px; line-height: 1.65; }
 .cap-copy .cap-lead {
   padding-left: 18px;
   border-left: 3px solid var(--red);
@@ -1383,7 +1383,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   letter-spacing: -.01em;
   color: var(--black);
 }
-.cap-points span { color: var(--muted-dark); font-size: 13.5px; line-height: 1.55; }
+.cap-points span { color: var(--muted-dark); font-size: 16px; line-height: 1.55; }
 
 /* =========================================================================
    Related articles
@@ -1411,7 +1411,7 @@ h1, h2, h3 { font-family: "Archivo", sans-serif; }
   letter-spacing: -.015em;
   color: var(--black);
 }
-.article-card__copy > p { margin: 0; color: var(--muted-dark); font-size: 13.5px; line-height: 1.55; }
+.article-card__copy > p { margin: 0; color: var(--muted-dark); font-size: 16px; line-height: 1.55; }
 .article-card__copy .text-link { margin-top: auto; padding-top: 12px; color: var(--black); }
 
 @media (max-width: 1100px) {
