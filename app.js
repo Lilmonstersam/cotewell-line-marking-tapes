@@ -76,7 +76,7 @@
       defaultColour: 'yellow',
       images: {
         yellow: UP + '2019/07/tape-yellow-both.png',
-        white: UP + '2019/07/tape-white-both.png',
+        white: 'assets/img/tape-white-both.png',
         red: UP + '2019/07/tape-red-both.png',
         blue: UP + '2019/07/tape-blue-both.png',
         green: UP + '2019/07/tape-green-both.png',
@@ -144,10 +144,10 @@
       descriptionSecondary: 'It is designed to take a beating from industrial wheel traffic, which is what gives us the confidence to offer a 2-year limited warranty on it.',
       colours: ['yellow', 'white', 'red'],
       widths: ['50mm', '100mm'],
-      defaultColour: 'yellow',
+      defaultColour: 'white',
       images: {
         yellow: UP + '2019/07/tape-yellow-both.png',
-        white: UP + '2019/07/tape-white-both.png',
+        white: 'assets/img/tape-white-both.png',
         red: UP + '2019/07/tape-red-both.png'
       },
       photos: [
@@ -759,6 +759,608 @@
     }
   };
 
+  // Live-checked copy reconciled before mirroring the revised mockups.
+  var reviewedProductCopy = {
+  "angle-shape": {
+    "description": "Durable corner markers for pallet bays, storage locations and equipment zones. Create clear 5S layouts using less material than full floor outlines.",
+    "descriptionSecondary": "",
+    "cardCopy": "Durable corner markers for pallet bays, storage locations and equipment zones. Create clear 5S layouts using less material than full floor outlines.",
+    "features": [
+      [
+        "",
+        "Heavy-duty construction withstands industrial wheeled traffic"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "Defines bay corners using less material than complete boxes"
+      ],
+      [
+        "",
+        "Easy to clean, replace or reposition as layouts change"
+      ],
+      [
+        "",
+        "3-year warranty"
+      ]
+    ],
+    "notes": [
+      "For internal use only",
+      "Apply to a clean, dry, oil-free surface, not over existing paint or tape",
+      "Surface preparation is essential for maximum adhesion",
+      "Wheel spinning, sharp turning and dragged equipment may cause damage",
+      "Dimensions: 152 × 50mm or 152 × 75mm"
+    ],
+    "applications": [
+      "Pallet bays",
+      "Storage locations",
+      "Equipment parking",
+      "Workstations",
+      "Pick and pack areas",
+      "Production zones",
+      "Manufacturing",
+      "Distribution centres"
+    ]
+  },
+  "mightyline-tape": {
+    "description": "Premium 1.3mm floor tape for heavy forklift and industrial wheeled traffic. Bevelled edges, quick installation and low maintenance make it a flexible alternative to painted lines.",
+    "descriptionSecondary": "",
+    "cardCopy": "Premium 1.3mm floor tape for heavy forklift and industrial wheeled traffic. Bevelled edges, quick installation and low maintenance make it a flexible alternative to painted lines.",
+    "features": [
+      [
+        "",
+        "1.3mm thick, up to seven times thicker than many standard floor tapes"
+      ],
+      [
+        "",
+        "Withstands heavy industrial forklift and wheeled traffic"
+      ],
+      [
+        "",
+        "Bevelled edges minimise lifting and provide a smooth transition"
+      ],
+      [
+        "",
+        "DIY peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "Removes with minimal residue; damaged sections are easy to repair"
+      ],
+      [
+        "",
+        "Up to 60% lower ongoing maintenance than painted line marking"
+      ],
+      [
+        "",
+        "Smooth, easy-to-clean surface"
+      ],
+      [
+        "",
+        "Suitable for pharmaceutical and food production environments, with no contamination during installation"
+      ],
+      [
+        "",
+        "3-year limited adhesion warranty"
+      ],
+      [
+        "",
+        "Custom shapes, barcodes and symbols available on request"
+      ]
+    ],
+    "notes": [
+      "For internal applications above 10°C only",
+      "Apply to a clean, dry, oil-free surface, not over existing paint or tape",
+      "Do not apply lengthways over floor joints",
+      "Not recommended for rough, damaged or uneven concrete",
+      "Continuous pallet dragging and heavy wheel spinning may reduce lifespan",
+      "Warranty does not cover damage",
+      "30m rolls; 50mm and 100mm widths"
+    ],
+    "applications": [
+      "Pedestrian walkways",
+      "Forklift routes",
+      "Pallet bays",
+      "Equipment parking",
+      "Material storage",
+      "Workstations",
+      "Production lines",
+      "Keep-clear areas",
+      "Safety and exclusion zones"
+    ]
+  },
+  "footprints": {
+    "description": "Highly visible footprints guide pedestrians along designated routes and separate pedestrian movement from operational areas. Supplied as a pair, each footprint is 241 × 89mm.",
+    "descriptionSecondary": "",
+    "cardCopy": "Highly visible footprints guide pedestrians along designated routes and separate pedestrian movement from operational areas. Supplied as a pair, each footprint is 241 × 89mm.",
+    "features": [
+      [
+        "",
+        "Durable industrial construction with a highly visible footprint design"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "Clearly identifies pedestrian routes"
+      ],
+      [
+        "",
+        "Easy to clean, replace or reposition"
+      ],
+      [
+        "",
+        "Supports Lean and 5S visual management"
+      ]
+    ],
+    "notes": [
+      "For internal use only",
+      "Apply to a clean, dry, oil-free surface, not over existing paint or tape",
+      "Surface preparation is essential for maximum adhesion",
+      "Heavy wheel spinning, sharp turning or dragged equipment may cause damage"
+    ],
+    "applications": [
+      "Pedestrian walkways",
+      "Warehouse aisles",
+      "Safe routes",
+      "Production areas",
+      "Pick and pack zones",
+      "Manufacturing",
+      "Distribution centres"
+    ]
+  },
+  "external-tape": {
+    "description": "Weather-resistant floor tape for outdoor asphalt and concrete. Built for rain, UV exposure and heavy pedestrian traffic, it creates visible, flexible layouts without painted lines.",
+    "descriptionSecondary": "",
+    "cardCopy": "Weather-resistant floor tape for outdoor asphalt and concrete. Built for rain, UV exposure and heavy pedestrian traffic, it creates visible, flexible layouts without painted lines.",
+    "features": [
+      [
+        "",
+        "Designed for outdoor asphalt and concrete"
+      ],
+      [
+        "",
+        "1.3mm thick, up to seven times thicker than standard tapes and paint"
+      ],
+      [
+        "",
+        "P5 slip-rated surface"
+      ],
+      [
+        "",
+        "Highly reflective for low-light and night-time visibility"
+      ],
+      [
+        "",
+        "Weather and UV resistant"
+      ],
+      [
+        "",
+        "Peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "Easy to remove, replace or cut to custom lengths and shapes"
+      ],
+      [
+        "",
+        "3-year warranty"
+      ]
+    ],
+    "notes": [
+      "For external use only",
+      "Surface preparation is essential for adhesion and lifespan",
+      "Do not apply over paint, tape or contaminated surfaces",
+      "Not suitable for loose, damaged or heavily textured surfaces",
+      "Heavy turning, wheel spinning and dragged equipment may reduce lifespan",
+      "25m roll; confirm width when ordering"
+    ],
+    "applications": [
+      "Hazards and exclusion zones",
+      "Keep-clear areas",
+      "Emergency access",
+      "Forklift routes",
+      "Vehicle lanes",
+      "Shared traffic zones",
+      "Fire equipment boundaries",
+      "Walkways",
+      "Storage bays",
+      "Loading areas"
+    ]
+  },
+  "freezer-footprints": {
+    "description": "Freezer-grade footprints guide pedestrians through cold rooms and freezer facilities. Designed for sub-zero environments where standard floor markings can fail.",
+    "descriptionSecondary": "",
+    "cardCopy": "Freezer-grade footprints guide pedestrians through cold rooms and freezer facilities. Designed for sub-zero environments where standard floor markings can fail.",
+    "features": [
+      [
+        "",
+        "Designed for freezer and cold room environments"
+      ],
+      [
+        "",
+        "Highly visible footprint design"
+      ],
+      [
+        "",
+        "Excellent adhesion in sub-zero temperatures"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation"
+      ],
+      [
+        "",
+        "Reinforces designated walkways; easy to replace when layouts change"
+      ]
+    ],
+    "notes": [
+      "For indoor freezer and cold room applications only",
+      "Surface must be clean, dry and free from contaminants",
+      "Dragging pallets or equipment over the footprints may reduce lifespan",
+      "Each footprint is 241mm long and 89mm wide"
+    ],
+    "applications": [
+      "Cold rooms",
+      "Freezer facilities",
+      "Food processing",
+      "Distribution centres",
+      "Warehouse walkways",
+      "Pedestrian routes",
+      "Pick and pack areas",
+      "Chilled storage"
+    ]
+  },
+  "arrow": {
+    "description": "Heavy-duty directional arrows create clear routes for pedestrians and vehicles. Reinforce traffic flow and support a safer, more organised 5S workplace.",
+    "descriptionSecondary": "",
+    "cardCopy": "Heavy-duty directional arrows create clear routes for pedestrians and vehicles. Reinforce traffic flow and support a safer, more organised 5S workplace.",
+    "features": [
+      [
+        "",
+        "Highly visible directional arrow"
+      ],
+      [
+        "",
+        "Heavy-duty construction withstands industrial wheeled traffic"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "Durable, easy-to-clean surface"
+      ],
+      [
+        "",
+        "Reinforces traffic flow and visual management"
+      ],
+      [
+        "",
+        "Easy to replace or reposition"
+      ]
+    ],
+    "notes": [
+      "For internal use only",
+      "Apply to a clean, dry, oil-free surface, not over paint or tape",
+      "Surface preparation is essential for maximum adhesion",
+      "Wheel spinning, sharp turning or dragged equipment may cause damage",
+      "254mm long and 152mm wide"
+    ],
+    "applications": [
+      "Forklift routes",
+      "Pedestrian walkways",
+      "Warehouse aisles",
+      "One-way systems",
+      "Loading and dispatch",
+      "Manufacturing",
+      "Distribution centres"
+    ]
+  },
+  "forklift-sign": {
+    "description": "A bold floor-level warning that alerts pedestrians to forklift activity ahead. Reinforce safe behaviour and improve awareness in shared warehouse traffic areas.",
+    "descriptionSecondary": "",
+    "cardCopy": "A bold floor-level warning that alerts pedestrians to forklift activity ahead. Reinforce safe behaviour and improve awareness in shared warehouse traffic areas.",
+    "features": [
+      [
+        "",
+        "Highly visible forklift warning alerts approaching pedestrians"
+      ],
+      [
+        "",
+        "Durable industrial construction"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "Easy-to-clean surface"
+      ]
+    ],
+    "notes": [
+      "For internal use on smooth, sound floors",
+      "Apply to a clean, dry, oil-free surface",
+      "Heavy wheel turning, pallet dragging or scraping may cause damage",
+      "Do not apply over existing tape or damaged coatings",
+      "Position clearly for approaching pedestrians",
+      "Confirm dimensions with Cotewell before ordering"
+    ],
+    "applications": [
+      "Forklift crossings",
+      "Pedestrian and forklift intersections",
+      "Warehouse aisles",
+      "Loading and dispatch",
+      "Manufacturing",
+      "High-traffic warehouse areas"
+    ]
+  },
+  "freezer-tape": {
+    "description": "Freezer-grade adhesive and durable 1.3mm construction provide reliable floor markings in cold rooms and freezer warehouses, performing at temperatures as low as −29°C.",
+    "descriptionSecondary": "",
+    "cardCopy": "Freezer-grade adhesive and durable 1.3mm construction provide reliable floor markings in cold rooms and freezer warehouses, performing at temperatures as low as −29°C.",
+    "features": [
+      [
+        "",
+        "Designed for temperatures as low as −29°C"
+      ],
+      [
+        "",
+        "1.3mm thick, up to seven times thicker than many standard floor tapes"
+      ],
+      [
+        "",
+        "Freezer-grade adhesive withstands heavy industrial wheeled traffic"
+      ],
+      [
+        "",
+        "Bevelled edges provide a smooth transition"
+      ],
+      [
+        "",
+        "Peel-and-stick installation with no special equipment or production downtime"
+      ],
+      [
+        "",
+        "Easy to remove with minimal residue; cut to any length"
+      ],
+      [
+        "",
+        "Smooth, easy-to-clean surface"
+      ],
+      [
+        "",
+        "Suitable for pharmaceutical and food processing environments"
+      ],
+      [
+        "",
+        "2-year limited warranty"
+      ]
+    ],
+    "notes": [
+      "Install at ambient temperatures between −29°C and +10°C",
+      "Surface must be clean, dry, oil-free and free from contaminants",
+      "Do not apply over paint, tape or lengthways over floor joints",
+      "Heavy wheel spinning, pallet dragging and abrasion may reduce lifespan",
+      "Warranty does not cover misuse or incorrect installation",
+      "30m rolls; 50mm and 100mm widths"
+    ],
+    "applications": [
+      "Cold rooms",
+      "Freezer warehouses",
+      "Food processing",
+      "Chilled storage",
+      "Distribution centres",
+      "Walkways",
+      "Forklift lanes",
+      "Storage locations",
+      "Pick and pack areas"
+    ]
+  },
+  "lean-line-570": {
+    "description": "A fast, flexible floor tape for low-traffic indoor visual management. Define work areas, walkways, storage locations and equipment zones without the mess or downtime of painted lines.",
+    "descriptionSecondary": "",
+    "cardCopy": "A fast, flexible floor tape for low-traffic indoor visual management. Define work areas, walkways, storage locations and equipment zones without the mess or downtime of painted lines.",
+    "features": [
+      [
+        "",
+        "0.5mm thick with square-cut edges"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "1-year warranty"
+      ],
+      [
+        "",
+        "Suitable for pharmaceutical and food production environments without installation contamination"
+      ],
+      [
+        "",
+        "Easy-to-clean surface and bright colours"
+      ],
+      [
+        "",
+        "Easy to replace as layouts change"
+      ]
+    ],
+    "notes": [
+      "For indoor applications above 10°C",
+      "Apply to a clean, dry, oil-free surface",
+      "Not recommended for rough, damaged or porous concrete",
+      "Do not apply over paint, tape or lengthways over floor joints",
+      "Heavy forklift turning and pallet dragging may reduce lifespan",
+      "Warranty does not cover damage",
+      "Cut to any length; 50mm × 30m rolls",
+      "Confirm suitability for your site's traffic before ordering"
+    ],
+    "applications": [
+      "Walkways",
+      "Storage locations",
+      "Pallet bays",
+      "Equipment parking",
+      "Production lines",
+      "Workstations"
+    ]
+  },
+  "t-shape": {
+    "description": "Durable T-shaped markers define adjoining pallet bays, storage locations and work areas without complete floor outlines. Maintain clear, consistent layouts across busy industrial workplaces.",
+    "descriptionSecondary": "",
+    "cardCopy": "Durable T-shaped markers define adjoining pallet bays, storage locations and work areas without complete floor outlines. Maintain clear, consistent layouts across busy industrial workplaces.",
+    "features": [
+      [
+        "",
+        "Heavy-duty construction withstands industrial wheeled traffic"
+      ],
+      [
+        "",
+        "Creates multiple adjoining pallet or storage bays"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "Highly visible, easy-to-clean surface"
+      ],
+      [
+        "",
+        "Easy to replace or reposition as layouts change"
+      ],
+      [
+        "",
+        "Supports Lean Manufacturing and 5S organisation"
+      ]
+    ],
+    "notes": [
+      "For internal use only",
+      "Apply to a clean, dry, oil-free surface, not over existing paint or tape",
+      "Surface preparation is essential for maximum adhesion",
+      "Wheel spinning, sharp turning and dragged equipment may cause damage",
+      "Ideal for adjoining bays with a shared boundary point",
+      "50mm and 75mm widths"
+    ],
+    "applications": [
+      "Pallet bays",
+      "Storage locations",
+      "Equipment parking",
+      "Workstations",
+      "Pick and pack areas",
+      "Production zones",
+      "Warehouses",
+      "Manufacturing",
+      "Lean and 5S workplaces"
+    ]
+  },
+  "keep-clear": {
+    "description": "An industrial-strength floor sticker for medium traffic. Keep emergency exits, electrical switchboards, fire equipment and access areas clear with an immediate, easy-to-read reminder.",
+    "descriptionSecondary": "",
+    "cardCopy": "An industrial-strength floor sticker for medium traffic. Keep emergency exits, electrical switchboards, fire equipment and access areas clear with an immediate, easy-to-read reminder.",
+    "features": [
+      [
+        "",
+        "Highly visible Keep Clear / Do Not Block message"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation"
+      ],
+      [
+        "",
+        "Durable laminated finish"
+      ],
+      [
+        "",
+        "Reinforces safety procedures and reduces repeated verbal reminders"
+      ],
+      [
+        "",
+        "Professional, easy-to-read design for indoor industrial environments"
+      ]
+    ],
+    "notes": [
+      "For internal use only",
+      "Not recommended for rough, damaged or uneven surfaces",
+      "Excessive forklift traffic and dragged objects may reduce lifespan",
+      "Apply to a clean, dry surface for maximum adhesion",
+      "610mm wide"
+    ],
+    "applications": [
+      "Emergency exits",
+      "Fire extinguishers and hose reels",
+      "Electrical switchboards",
+      "First aid stations",
+      "Safety equipment",
+      "Access panels",
+      "Walkways"
+    ]
+  },
+  "lean-line-960": {
+    "description": "Durable, flexible floor tape for medium-traffic workplaces. Mark walkways, storage areas and workstations with no curing time, and update layouts as operations change.",
+    "descriptionSecondary": "",
+    "cardCopy": "Durable, flexible floor tape for medium-traffic workplaces. Mark walkways, storage areas and workstations with no curing time, and update layouts as operations change.",
+    "features": [
+      [
+        "",
+        "0.9mm thick for medium-traffic applications"
+      ],
+      [
+        "",
+        "Quick peel-and-stick installation with no production downtime"
+      ],
+      [
+        "",
+        "Easy to remove or replace as layouts change"
+      ],
+      [
+        "",
+        "2-year warranty"
+      ],
+      [
+        "",
+        "Smooth, easy-to-clean surface"
+      ],
+      [
+        "",
+        "Suitable for pharmaceutical and food production environments"
+      ],
+      [
+        "",
+        "Square-cut edges"
+      ]
+    ],
+    "notes": [
+      "For internal use above 10°C",
+      "Apply to clean, dry, oil-free surfaces",
+      "Do not apply over paint, tape or lengthways across floor joints",
+      "Heavy forklift traffic and constant pallet dragging may reduce lifespan",
+      "Warranty does not cover damage",
+      "50mm × 30m rolls"
+    ],
+    "applications": [
+      "Walkways",
+      "Storage locations",
+      "Workstation boundaries",
+      "Equipment storage",
+      "Medium foot traffic and light wheeled traffic"
+    ]
+  }
+};
+  Object.keys(reviewedProductCopy).forEach(function (key) {
+    Object.assign(productData[key], reviewedProductCopy[key]);
+  });
+
   var ORDER = ['mightyline-tape','freezer-tape','lean-line-960','lean-line-570','external-tape','angle-shape','t-shape','arrow','footprints','freezer-footprints','stop-sign','forklift-sign','keep-clear'];
 
   var COMPARE_ROWS = [
@@ -1103,12 +1705,13 @@
 
     /* Three aligned key metrics, using the same three labels for every product in a
        group so like-for-like comparison across sibling products actually works. */
+    $('[data-spec-strip]').hidden = true;
     $('[data-spec-strip]').innerHTML = (p.keyMetrics || p.specs.slice(0, 3)).map(function (s) {
       return '<span><b>' + s[1] + '</b>' + s[0] + '</span>';
     }).join('');
 
     featureGrid.innerHTML = p.features.map(function (f, i) {
-      return '<article class="feature"><span>' + ('0' + (i + 1)).slice(-2) + '</span><h3>' + f[0] + '</h3><p>' + f[1] + '</p></article>';
+      return '<article class="feature"><span>' + ('0' + (i + 1)).slice(-2) + '</span>' + (f[0] ? '<h3>' + f[0] + '</h3>' : '') + '<p>' + f[1] + '</p></article>';
     }).join('');
 
     $('[data-installation-notes]').innerHTML = p.notes.map(function (n) { return '<li>' + n + '</li>'; }).join('');
