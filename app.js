@@ -1871,7 +1871,8 @@
     if (footerLabel) {
       footerLabel.textContent = route.view === 'product' ? page.shortName + ' product page mock-up' : categoryData.footerText;
     }
-    if (stickyCta && route.view !== 'product') {
+    if (stickyCta) {
+      // Hide sticky CTA immediately on route change, will re-eval on scroll
       stickyCta.classList.remove('is-visible');
       stickyCta.setAttribute('aria-hidden', 'true');
     }
@@ -1959,13 +1960,58 @@
   if (quantity) quantity.addEventListener('change', function () { quantity.value = clampQty(quantity.value); });
 
   /* ------------------------------------------------------------------ scroll ui */
+  /* ------------------------------------------------------------------ scroll ui */
+  var header = document.querySelector('[data-site-header]');
+  var menuBtn = document.querySelector('.menu-toggle');
+  var nav = document.querySelector('.primary');
+
+  if (menuBtn && nav) {
+    menuBtn.addEventListener('click', function() {
+      var isExpanded = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', !isExpanded);
+      nav.classList.toggle('is-open');
+      document.body.classList.toggle('menu-open');
+      menuBtn.textContent = isExpanded ? 'Menu' : 'Close';
+    });
+  }
+
+  // Learning Centre Desktop Hover (Accessibility)
+  var learningMenu = document.querySelector('.learning-menu');
+  var learningBtn = learningMenu ? learningMenu.querySelector('button') : null;
+
+  if (learningMenu && learningBtn) {
+    learningMenu.addEventListener('mouseenter', function() { learningBtn.setAttribute('aria-expanded', 'true'); });
+    learningMenu.addEventListener('mouseleave', function() { learningBtn.setAttribute('aria-expanded', 'false'); });
+    learningBtn.addEventListener('click', function(e) {
+      var isExpanded = learningBtn.getAttribute('aria-expanded') === 'true';
+      learningBtn.setAttribute('aria-expanded', !isExpanded);
+      if (!isExpanded) {
+        var a = learningMenu.querySelector('.submenu a');
+        if (a) a.focus();
+      }
+    });
+  }
+
   function updatePageUi() {
     ticking = false;
     var y = window.scrollY || 0;
-    if (header) header.classList.toggle('is-hidden', y > lastY && y > 180);
-    var hero = $('.product-hero');
-    if (hero && stickyCta) {
-      var show = activeView === 'product' && hero.getBoundingClientRect().bottom <= 0;
+    if (header) {
+      header.classList.toggle('is-compact', y > 40);
+      if (y > 300 && y > lastY) {
+        header.classList.add('is-hidden');
+      } else {
+        header.classList.remove('is-hidden');
+      }
+    }
+    
+    if (stickyCta) {
+      var show = false;
+      if (activeView === 'product') {
+        var hero = $('.product-hero');
+        show = hero && hero.getBoundingClientRect().bottom <= 0;
+      } else {
+        show = y > 600;
+      }
       stickyCta.classList.toggle('is-visible', show);
       stickyCta.setAttribute('aria-hidden', String(!show));
     }
