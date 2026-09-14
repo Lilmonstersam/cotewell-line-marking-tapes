@@ -33,10 +33,9 @@ jobs:
           for f in index.html 404.html app.js styles.css robots.txt .nojekyll; do
             [ -f "$f" ] || { echo "::error::Missing required file: $f"; exit 1; }
           done
-          for f in assets/fonts/archivo-latin.woff2 \
-                   assets/fonts/red-hat-display-latin.woff2 \
-                   assets/fonts/ibm-plex-mono-latin-400.woff2 \
-                   assets/fonts/ibm-plex-mono-latin-500.woff2 \
+          for f in "assets/fonts/Big John.otf" \
+                   "assets/fonts/OpenSans-VariableFont_wdth,wght.ttf" \
+                   "assets/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf" \
                    assets/img/cotewell-logo.jpeg \
                    assets/img/favicon.svg \
                    assets/img/project-dematic.png \
