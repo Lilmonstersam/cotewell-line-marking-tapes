@@ -206,8 +206,8 @@
       cardCopy: 'A 0.9mm roll for walkways, storage areas and workstation boundaries in medium-traffic environments.',
       badge: '0.9mm · 50mm x 30m',
       tag: '0.9mm · 50mm x 30m roll',
-      description: 'The Lean Line 960 Floor Tape is designed for workplaces that need a durable yet flexible floor marking solution. Ideal for medium traffic environments, it gives clear visual boundaries for walkways, storage areas and workstations while allowing layouts to be updated as operations evolve.',
-      descriptionSecondary: 'With quick installation and no curing time, it is a practical alternative to painted floor markings at roughly a third the cost of the heavy-duty range.',
+      description: 'The Lean Line 960 Floor Tape is designed for workplaces that need a durable yet flexible floor marking solution. Ideal for medium traffic environments, it provides clear visual boundaries for walkways, storage areas and workstations while allowing layouts to be easily updated as your operations evolve.',
+      descriptionSecondary: 'With quick installation and no curing time, it’s a practical alternative to painted floor markings.',
       colours: LEAN_COLOURS,
       widths: ['50mm'],
       defaultColour: 'yellow',
@@ -231,22 +231,28 @@
       featuresTitle: 'The middle ground<br>between paint and MightyLine.',
       featuresIntro: 'A practical, lower-cost roll for the areas of a site that do not see forklift wheels every day.',
       features: [
-        ['0.9mm thick', 'Sized for medium traffic applications rather than forklift routes.'],
-        ['Peel-and-stick install', 'Quick installation with no production downtime required.'],
-        ['2-year warranty', 'Backed for the traffic level it is specified for.'],
-        ['Square-cut edges', 'Gives a clean, professional finish on straight runs.'],
-        ['Easy-to-clean surface', 'Smooth face that does not trap dirt in busy aisles.'],
-        ['Food and pharma safe', 'No contamination concerns in production environments.']
+        ['', '0.9mm thick floor tape designed for medium traffic applications'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', 'No production downtime required during installation'],
+        ['', 'Easily removed or replaced if layouts change'],
+        ['', '2 year warranty'],
+        ['', 'Smooth, easy-to-clean surface'],
+        ['', 'Suitable for pharmaceutical and food production environments with no contamination concerns'],
+        ['', 'Square-cut edges for a clean, professional finish']
       ],
       notes: [
         'Not suitable for external use',
-        'Best applied to clean, dry and oil-free surfaces',
-        'Do not apply over existing paint or floor tape',
-        'Avoid applying the tape lengthways across floor joints',
-        'Heavy forklift traffic or constant pallet dragging may reduce lifespan',
-        'Warranty does not cover damage'
+        'Suitable for applications where the ambient temperature remains above 10°C.',
+        'Best applied to clean, dry and oil-free surfaces.',
+        'Not suitable for external environments.',
+        'Do not apply over existing paint or floor tape.',
+        'Avoid applying the tape lengthways across floor joints.',
+        'Heavy forklift traffic or constant pallet dragging may reduce the product\'s lifespan.',
+        'Warranty does not cover damage',
+        'Length: 30m',
+        'Width: 50mm'
       ],
-      applications: ['Walkways','Storage locations','Workstation boundaries','Equipment storage areas','Medium foot traffic and light wheeled traffic environments'],
+      applications: ['Walkways', 'Storage locations', 'Workstation boundaries', 'Equipment storage areas', 'Medium foot traffic and light wheeled traffic environments'],
       specs: [['Thickness','0.9mm'],['Roll size','50mm x 30m'],['Colours','12, including five diagonal hazard patterns'],['Warranty','2 years'],['Traffic rating','Medium foot traffic, light wheeled traffic'],['Environment','Internal only'],['Edges','Square cut'],['Installation','Peel and stick, no curing time']],
       related: ['lean-line-570', 'mightyline-tape', 'external-tape']
     },
@@ -267,8 +273,8 @@
       cardCopy: 'An easy-to-install-yourself tape for low traffic areas, walkways, storage locations and workstations.',
       badge: '0.5mm · from $79',
       tag: '0.5mm · 50mm x 30m roll',
-      description: 'The Lean Line 570 Floor Tape is a fast and effective way to create clear visual boundaries throughout your facility, though it is only recommended for low traffic applications. It helps define work areas, walkways, storage locations and equipment zones without the downtime or mess of painted lines.',
-      descriptionSecondary: 'A fast, flexible option for facilities that want clear visual management without the downtime or mess of painted lines.',
+      description: 'The Lean Line 570 Floor Tape is a fast and effective way to create clear visual boundaries throughout your facility, however its only recommended for low traffic applications. If you’re improving your workplace organisation, this durable floor tape helps define work areas, walkways, storage locations and equipment zones without the downtime or mess of painted lines.',
+      descriptionSecondary: '',
       colours: LEAN_COLOURS,
       widths: ['50mm'],
       defaultColour: 'yellow',
@@ -292,23 +298,34 @@
       featuresTitle: 'Lay out the plan<br>before you commit.',
       featuresIntro: 'A fast, flexible option for organising a workplace through clear visual management in low traffic areas.',
       features: [
-        ['0.5mm thick', 'Low-range marking tape for indoor, low traffic use.'],
-        ['Peel-and-stick install', 'Quick installation with no production downtime.'],
-        ['1-year warranty', 'Matched to the low-traffic applications it suits.'],
-        ['Square-cut edges', 'Clean, professional finish on straight runs.'],
-        ['Bright colours', 'Twelve colours and patterns for maximum visibility.'],
-        ['Easily replaced', 'Removes cleanly when the layout changes.']
+        ['', 'Low-range marking tape for indoor use'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', '0.5mm thick – withstanding medium traffic'],
+        ['', '1 year warranty'],
+        ['', 'Square cut edges'],
+        ['', 'No production downtime needed for install'],
+        ['', 'No contamination issues for pharmaceutical or food produce'],
+        ['', 'Easy to clean surface'],
+        ['', 'Bright colours for maximum visibility'],
+        ['', 'Easily replaced if layouts change'],
+        ['', 'Helps improve workplace organisation and efficiency']
       ],
       notes: [
-        'Not recommended for rough, damaged or porous concrete',
-        'Heavy forklift turning or dragging pallets across the tape may reduce lifespan',
-        'Ensure the surface is clean, dry and oil free before installation',
-        'Do not apply tape lengthways along floor joints',
+        'Not recommended for rough, damaged or porous concrete.',
+        'Heavy forklift turning or dragging pallets across the tape may reduce its lifespan.',
+        'Only suitable for applications where the ambient temperature is above 10°C',
+        'Ensure surface is clean, dry and oil free before installation.',
+        'Do not apply tape lengthways on floor joints',
         'Not suitable for external use',
         'Do not apply over existing paint or tape',
-        'Can be cut to any length to suit your facility layout'
+        'Warranty does not cover damage',
+        'Ensure the floor is clean, dry and free from dust before installation.',
+        'Can be cut to any length to suit your facility layout.',
+        'Available in a range of colours to support visual management systems.',
+        'Length: 30m',
+        'Width: 50mm'
       ],
-      applications: ['Walkways','Storage locations','Pallet bays','Equipment parking areas','Production lines','Workstations'],
+      applications: ['Walkways', 'Storage locations', 'Pallet bays', 'Equipment parking areas', 'Production lines', 'Workstations'],
       specs: [['Thickness','0.5mm'],['Roll size','50mm x 30m'],['Colours','12, including five diagonal hazard patterns'],['Warranty','1 year'],['Traffic rating','Low traffic, foot traffic'],['Environment','Internal only'],['Edges','Square cut'],['Installation','Peel and stick, no curing time']],
       related: ['lean-line-960', 'mightyline-tape', 'arrow']
     },
@@ -329,8 +346,8 @@
       cardCopy: 'A 1.3mm reflective, UV-resistant tape for car parks, vehicle lanes and outdoor walkways on asphalt or concrete.',
       badge: 'Outdoor · reflective',
       tag: 'P5 slip rated · reflective',
-      description: 'The Cotewell External Floor Tape is engineered to withstand the conditions outdoor environments throw at it. From rain and UV exposure to heavy pedestrian traffic, it gives a durable, highly visible alternative to painted lines on asphalt and concrete surfaces.',
-      descriptionSecondary: 'One of the thickest quality external tapes on the market at 1.3mm, with a P5 slip rating and a reflective face for low-light and night-time visibility.',
+      description: 'The Cotewell External Floor Tape is engineered to withstand the harsh conditions that outdoor environments throw at it. From rain and UV exposure to heavy pedestrian traffic, this premium tape provides a durable, highly visible alternative to painted lines on asphalt and concrete surfaces.',
+      descriptionSecondary: 'One of the thickest quality external tapes on the market, we guarantee this will give you more control over your external line markings.',
       colours: ['yellow', 'white', 'red', 'blue', 'green'],
       defaultColour: 'yellow',
       images: {
@@ -351,23 +368,28 @@
       featuresTitle: 'Marking that survives<br>the weather.',
       featuresIntro: 'The only tape in the range specified for outdoor asphalt and concrete. Everything else on this page is internal only.',
       features: [
-        ['Built for outdoors', 'Designed specifically for external asphalt and concrete surfaces.'],
-        ['1.3mm thick', 'Up to 7 times thicker than standard tapes and paint.'],
-        ['P5 slip rating', 'Slip-rated surface for pedestrian safety in the wet.'],
-        ['Reflective face', 'Improves visibility in low-light and night-time conditions.'],
-        ['Weather and UV resistant', 'Holds colour and adhesion through rain and sun exposure.'],
-        ['3-year warranty', 'Backed for outdoor service life.'],
-        ['No downtime', 'Peel-and-stick install with no curing or line closure.'],
-        ['Cut to any shape', 'Can be cut to length or shape to suit the site layout.']
+        ['', 'Designed specifically for outdoor asphalt and concrete surfaces'],
+        ['', '1.3mm thick – up to 7 times thicker than standard tapes and paint'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', '3 year warranty'],
+        ['', 'P5 slip-rated surface for enhanced pedestrian safety'],
+        ['', 'Highly reflective for improved visibility in low-light and night-time conditions'],
+        ['', 'Easily removed or replaced if layouts change'],
+        ['', 'No production downtime required during installation'],
+        ['', 'Weather and UV resistant for long-lasting performance']
       ],
       notes: [
-        'Not for internal use',
-        'Surface preparation is essential for maximum adhesion and lifespan',
-        'Do not apply over existing paint, tape or contaminated surfaces',
-        'Not suitable for loose, damaged or heavily textured surfaces',
-        'Continuous heavy turning, wheel spinning or dragging over the tape may reduce lifespan'
+        'Surface preparation is essential to achieve maximum adhesion and product lifespan.',
+        'Continuous heavy turning movements, wheel spinning or dragging of equipment directly over the tape may reduce its lifespan.',
+        'Designed to withstand outdoor weather conditions and UV exposure.',
+        'Suitable for creating custom layouts, including pedestrian walkways, traffic lanes, storage areas and safety zones.',
+        'Can be cut to any length or shape to suit your site\'s specific requirements.',
+        'Do not apply over existing paint, tape or contaminated surfaces.',
+        'Not suitable for loose, damaged or heavily textured surfaces.',
+        'Not for internal use.',
+        'Length: 25m'
       ],
-      applications: ['Hazard identification','Exclusion zones','Keep-clear areas','Emergency access routes','Forklift routes','One-way traffic systems','Vehicle lanes','Shared traffic zones','Fire equipment boundaries','Pedestrian walkways','Pallet storage bays','Equipment parking areas','Material storage zones','Loading and unloading areas'],
+      applications: ['Hazard identification', 'Exclusion zones', 'Keep-clear areas', 'Emergency access routes', 'Forklift routes', 'One-way traffic systems', 'Vehicle lanes', 'Shared traffic zones', 'Fire equipment boundaries', 'Pedestrian walkways', 'Pallet storage bays', 'Equipment parking areas', 'Material storage zones', 'Loading and unloading areas'],
       specs: [['Thickness','1.3mm'],['Slip rating','P5'],['Colours','Yellow, white, red, blue and green'],['Warranty','3 years'],['Visibility','Reflective face for low light'],['Environment','External asphalt and concrete only'],['Resistance','Weather and UV resistant'],['Installation','Peel and stick, no curing time']],
       related: ['mightyline-tape', 'lean-line-960', 'stop-sign']
     },
@@ -388,8 +410,8 @@
       cardCopy: 'L-shaped corner markers that define pallet bays with a fraction of the material a taped box needs.',
       badge: 'From $8.50 + GST',
       tag: '152 x 50mm and 152 x 75mm',
-      description: 'MightyLine 5S Angle Shapes are a simple way to clearly define pallet locations, storage areas and designated equipment zones throughout your facility. Rather than marking out complete boxes with tape, these durable L-shaped markers identify the corners of each pallet bay, giving clear visual guidance while using less material.',
-      descriptionSecondary: 'Ideal for implementing or maintaining a 5S workplace: they improve organisation, reduce clutter and make it easier for staff to return pallets and equipment to the right location.',
+      description: 'The Mighty Line 5S Angle Shape makes it quick and easy to create clearly defined pallet bays, storage locations and equipment zones. Built from durable Mighty Line material, these highly visible corner markers provide a cleaner, more flexible alternative to full floor outlines while supporting an organised and efficient 5S workplace.',
+      descriptionSecondary: '',
       colours: SHAPE_COLOURS,
       widths: ['50mm', '75mm'],
       defaultColour: 'yellow',
@@ -408,24 +430,25 @@
       featuresTitle: 'Mark the corners,<br>not the whole box.',
       featuresIntro: 'The fastest way to lay out a 5S floor: four corner markers per bay instead of a full taped rectangle.',
       features: [
-        ['Defines pallet bays', 'Creates clearly defined pallet and storage locations.'],
-        ['Supports 5S and Lean', 'Purpose-built for workplace organisation programmes.'],
-        ['Faster than taped boxes', 'Quicker and easier to install than taping full rectangles.'],
-        ['Uses less material', 'Excellent visibility from a fraction of the tape.'],
-        ['Industrial-grade build', 'Durable construction for busy industrial environments.'],
-        ['3-year warranty', 'Removable if your layout changes.']
+        ['', 'Heavy-duty construction for demanding industrial environments'],
+        ['', 'Clearly defines corners of pallet and storage bays'],
+        ['', 'Withstands industrial wheeled traffic'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', 'No production downtime required'],
+        ['', 'Uses less material than marking complete boxes'],
+        ['', 'Easy-to-clean surface'],
+        ['', 'Easily replaced or repositioned as layouts change'],
+        ['', '3 year warranty']
       ],
       notes: [
-        'Internal use only, on clean, dry, smooth floor surfaces',
-        'Not for outdoor environments or areas exposed to prolonged moisture',
-        'May wear early where pallets are dragged or steel pallet feet scrape',
-        'Adhesion and longevity depend on correct surface preparation',
-        'Removable and replaceable, though some adhesive residue may need cleaning',
-        'Available in 2 sizes: 152 x 50mm and 152 x 75mm',
-        'Colours: yellow, blue, green, orange, red, black and white',
-        'Combines with T-Shapes, Arrows and Footprints for a complete system'
+        'For internal use only',
+        'Apply to a clean, dry and oil-free surface',
+        'Do not apply over existing paint or tape',
+        'Surface preparation is essential for maximum adhesion',
+        'Heavy wheel spinning, sharp turning or dragging equipment directly over the shape may cause damage',
+        'Available in 2 widths: 152 x 50mm & 152 x 75mm'
       ],
-      applications: ['Pallet storage bays','Equipment parking locations','Workstations','Staging areas','Material storage zones','Warehouse and manufacturing facilities'],
+      applications: ['Pallet bays', 'Warehouse storage locations', 'Equipment parking areas', 'Workstations', 'Pick and pack areas', 'Production zones', 'Manufacturing facilities', 'Distribution centres', 'Warehouses'],
       specs: [['Sizes','152 x 50mm and 152 x 75mm'],['Colours','Yellow, blue, green, orange, red, black, white'],['Warranty','3 years'],['Sold as','Individual markers'],['Environment','Internal only, clean and dry floors'],['Installation','Peel and stick']],
       related: ['t-shape', 'arrow', 'mightyline-tape']
     },
@@ -445,8 +468,8 @@
       cardCopy: 'T markers for where two bays meet, so a run of pallet locations reads as one continuous grid.',
       badge: 'From $8.50 + GST',
       tag: '50mm and 75mm widths',
-      description: 'MightyLine 5S T-Shapes make it easy to create clearly defined pallet bays, storage locations and work areas without marking complete boxes on the floor. Available in blue, yellow, green, orange, red, black and white, in 50mm and 75mm widths.',
-      descriptionSecondary: 'Built from durable Mighty Line material, they are ideal for creating multiple adjoining pallet or storage bays and help maintain consistent layouts in busy industrial workplaces.',
+      description: 'The Mighty Line 5S T-Shape makes it easy to create clearly defined pallet bays, storage locations and work areas without marking complete boxes on the floor. Built from durable Mighty Line material, these highly visible markers help maintain consistent layouts and keep busy industrial workplaces organised, efficient and easy to navigate.',
+      descriptionSecondary: '',
       colours: SHAPE_COLOURS,
       widths: ['50mm', '75mm'],
       defaultColour: 'yellow',
@@ -465,20 +488,25 @@
       featuresTitle: 'For where two<br>bays meet.',
       featuresIntro: 'Angles mark the ends of a run. T shapes mark every division in between.',
       features: [
-        ['Built for 5S environments', 'Designed for pallet and item marking in Lean workplaces.'],
-        ['152 x 152mm footprint', 'Available in 50mm and 75mm stroke widths.'],
-        ['Seven colours', 'Matches the rest of the MightyLine shape range.'],
-        ['3-year limited warranty', 'Same warranty as the MightyLine tape range.'],
-        ['Peel and stick', 'No downtime and no curing required.'],
-        ['Removable', 'Lifts cleanly when the layout changes.']
+        ['', 'Heavy-duty construction for demanding industrial environments'],
+        ['', 'Ideal for creating multiple adjoining pallet or storage bays'],
+        ['', 'Withstands industrial wheeled traffic'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', 'No production downtime required'],
+        ['', 'Highly visible for clear visual management'],
+        ['', 'Easy-to-clean surface'],
+        ['', 'Easily replaced or repositioned when layouts change'],
+        ['', 'Supports Lean Manufacturing and 5S workplace organisation']
       ],
       notes: [
-        'Internal use only, on clean, dry, smooth floor surfaces',
-        'Adhesion and longevity depend on correct surface preparation',
-        'May wear early where pallets are dragged across the marker',
-        'Available in 50mm and 75mm widths'
+        'For internal use only',
+        'Apply to a clean, dry and oil-free surface',
+        'Do not apply over existing paint or tape',
+        'Surface preparation is essential for maximum adhesion',
+        'Heavy wheel spinning, sharp turning or dragging equipment directly over the shape may cause damage',
+        'Ideal for marking adjoining bays where a shared boundary point is required'
       ],
-      applications: APPLICATION_LIST,
+      applications: ['Pallet bays', 'Storage locations', 'Equipment parking areas', 'Workstations', 'Pick and pack areas', 'Production zones', 'Warehouse organisation', 'Manufacturing facilities', 'Lean and 5S workplaces'],
       specs: [['Widths','50mm and 75mm'],['Colours','Yellow, blue, green, orange, red, black, white'],['Best for','Adjoining pallet or storage bays'],['Sold as','Individual markers'],['Environment','Internal only'],['Installation','Peel and stick']],
       related: ['angle-shape', 'arrow', 'footprints']
     },
@@ -498,8 +526,8 @@
       cardCopy: 'Peel-and-stick arrows that direct pedestrian and vehicle movement along designated routes.',
       badge: '$12.50 + GST each',
       tag: '254mm long · 152mm wide',
-      description: 'MightyLine 5S Arrows are a simple, highly visible way to direct pedestrian and vehicle movement through busy industrial workplaces. Available in yellow, green, red, blue and orange, each arrow is 254mm long and 152mm wide.',
-      descriptionSecondary: 'Built with Mighty Line heavy-duty construction, they help create clear traffic flow, reinforce designated routes and support a safer, more organised 5S workplace.',
+      description: 'The MightyLine 5S Arrow provides a simple, highly visible way to direct pedestrian and vehicle movement throughout busy industrial workplaces. Built with Mighty Line’s heavy-duty construction, these durable floor arrows help create clear traffic flow, reinforce designated routes and support a safer, more organised 5S workplace.',
+      descriptionSecondary: '',
       colours: ['yellow', 'green', 'red', 'blue', 'orange'],
       defaultColour: 'yellow',
       images: {
@@ -515,19 +543,24 @@
       featuresTitle: 'Point people<br>the right way.',
       featuresIntro: 'Reinforces designated routes and one-way systems so forklift and pedestrian flow stays predictable.',
       features: [
-        ['254mm long', '152mm wide at the widest point for visibility down an aisle.'],
-        ['Emergency egress', 'Points pedestrians towards safety in emergency situations.'],
-        ['Traffic flow', 'Marks one-way routes and directional aisles.'],
-        ['Five colours', 'Yellow, green, red, blue and orange.'],
-        ['Patented MightyLine build', 'Same durable construction as the tape range.'],
-        ['Peel and stick', 'Install in seconds with no downtime.']
+        ['', 'Highly visible directional arrow'],
+        ['', 'Heavy-duty construction for demanding industrial environments'],
+        ['', 'Designed to withstand industrial wheeled traffic'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', 'No production downtime required'],
+        ['', 'Durable, easy-to-clean surface'],
+        ['', 'Helps reinforce traffic flow and visual management'],
+        ['', 'Easy to replace or reposition as layouts change']
       ],
       notes: [
-        'Internal use only, on clean, dry, smooth floor surfaces',
-        'Ensure the surface is free from dust, grease and contaminants before installation',
-        'May wear early where pallets are dragged across the marker'
+        'For internal use only',
+        'Apply to a clean, dry and oil-free surface',
+        'Do not apply over existing paint or tape',
+        'Heavy wheel spinning, sharp turning or dragging equipment directly over the arrow may cause damage',
+        'Surface preparation is essential for maximum adhesion',
+        '254mm long & 152mm wide'
       ],
-      applications: APPLICATION_LIST,
+      applications: ['Forklift traffic routes', 'Pedestrian walkways', 'Warehouse aisles', 'One-way traffic systems', 'Loading and dispatch areas', 'Manufacturing facilities', 'Distribution centres'],
       specs: [['Length','254mm'],['Width','152mm at the widest point'],['Colours','Yellow, green, red, blue, orange'],['Sold as','Individual markers'],['Environment','Internal only'],['Installation','Peel and stick']],
       related: ['footprints', 'angle-shape', 'stop-sign']
     },
@@ -548,8 +581,8 @@
       cardCopy: 'Footprint decals laid in the direction of travel to show pedestrians where the safe aisle runs.',
       badge: '$14.70 + GST per pair',
       tag: '241mm long · 89mm wide',
-      description: 'Patented Mighty Line floor marking footprint stickers in yellow, red, green, blue and orange, supplied in pairs. Each footprint is 241mm long and 89mm wide.',
-      descriptionSecondary: 'Peel and stick them in the direction of the safety aisle-way to reinforce designated pedestrian walkways and improve guidance, safety and workplace organisation.',
+      description: 'The Mighty Line Small Footprints provide a simple, highly visible way to guide pedestrians along designated routes throughout your workplace. Durable and easy to install, they help separate pedestrian movement from operational areas. Mighty Line footprints are 241 mm long and 89 mm wide.',
+      descriptionSecondary: '',
       colours: ['yellow', 'green', 'red', 'blue', 'orange'],
       defaultColour: 'yellow',
       images: {
@@ -565,20 +598,23 @@
       featuresTitle: 'The walkway,<br>read at a glance.',
       featuresIntro: 'A line tells people where the aisle is. Footprints tell them which way to walk down it.',
       features: [
-        ['241 x 89mm', 'Sized to read clearly without dominating the aisle.'],
-        ['Supplied in pairs', 'Laid in the direction of travel down the walkway.'],
-        ['Marks safe walkways', 'Shows pedestrians the designated route through the site.'],
-        ['Five colours', 'Yellow, green, red, blue and orange.'],
-        ['Patented MightyLine build', 'Same durable construction as the tape range.'],
-        ['Peel and stick', 'Install in seconds with no downtime.']
+        ['', 'Highly visible footprint design'],
+        ['', 'Durable construction for industrial environments'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', 'No production downtime required'],
+        ['', 'Helps clearly identify pedestrian routes'],
+        ['', 'Easy-to-clean surface'],
+        ['', 'Easily replaced or repositioned as layouts change'],
+        ['', 'Supports Lean and 5S visual management']
       ],
       notes: [
-        'Internal use only, on clean, dry, smooth floor surfaces',
-        'Surface must be free from dust, grease and contaminants before installation',
-        'Heavy dragging of pallets or equipment over the footprints may reduce lifespan',
-        '241mm long and 89mm wide'
+        'For internal use only',
+        'Apply to a clean, dry and oil-free surface',
+        'Surface preparation is essential for maximum adhesion',
+        'Do not apply over existing paint or tape',
+        'Heavy wheel spinning, sharp turning or dragging equipment directly over the footprints may cause damage'
       ],
-      applications: APPLICATION_LIST,
+      applications: ['Pedestrian walkways', 'Warehouse aisles', 'Designated safe routes', 'Production areas', 'Pick and pack zones', 'Manufacturing facilities', 'Distribution centres'],
       specs: [['Length','241mm'],['Width','89mm'],['Sold as','Pair'],['Colours','Yellow, green, red, blue, orange'],['Environment','Internal only'],['Installation','Peel and stick']],
       related: ['freezer-footprints', 'arrow', 'lean-line-570']
     },
@@ -599,8 +635,8 @@
       cardCopy: 'Footprint markers with adhesive built for freezers and cold rooms, where standard decals lift.',
       badge: '$20.00 + GST per pair',
       tag: 'Sub-zero adhesive',
-      description: 'The Mighty Line X-Treme Freezer Footprints give a simple, highly visible way to guide pedestrian traffic through cold rooms and freezer facilities. They are designed specifically for sub-zero environments, where they hold adhesion in conditions that cause standard floor markings to fail.',
-      descriptionSecondary: 'Peel and stick them in the direction of the safety aisle-way, exactly as you would the standard footprints, and the route stays readable through the cold chain.',
+      description: 'The Mighty Line X-Treme Freezer Footprints provide a simple, highly visible way to guide pedestrian traffic through cold rooms and freezer facilities. Designed specifically for sub-zero environments, they maintain excellent adhesion where standard floor markings can fail. Just peel and stick the footprints in the direction of the safety aisle way.',
+      descriptionSecondary: '',
       colours: ['yellow', 'white', 'red'],
       defaultColour: 'yellow',
       images: {
@@ -614,20 +650,20 @@
       featuresTitle: 'Adhesion where<br>standard decals lift.',
       featuresIntro: 'Same footprint, different adhesive. This is the version to specify anywhere below freezing.',
       features: [
-        ['Sub-zero adhesion', 'Holds in freezer and cold room conditions.'],
-        ['Freezer and cold room use', 'Designed specifically for chilled and frozen environments.'],
-        ['Highly visible', 'Clear footprint design for low-contrast cold stores.'],
-        ['Peel and stick', 'Quick installation with no curing time.'],
-        ['Reinforces walkways', 'Marks the designated pedestrian route through the cold chain.'],
-        ['Easy to replace', 'Removes cleanly when the layout changes.']
+        ['', 'Designed specifically for freezer and cold room environments'],
+        ['', 'Highly visible footprint design'],
+        ['', 'Excellent adhesion in sub-zero temperatures'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', 'Helps reinforce designated pedestrian walkways'],
+        ['', 'Easy to replace if layouts change']
       ],
       notes: [
         'Designed for indoor freezer and cold room applications only',
         'Surface must be clean, dry and free from contaminants before installation',
-        'Heavy dragging of pallets or equipment over the footprints may reduce lifespan',
-        '241mm long and 89mm wide'
+        'Heavy dragging of pallets or equipment directly over the footprints may reduce product lifespan',
+        '241mm long & 89mm wide'
       ],
-      applications: ['Cold rooms','Freezer facilities','Food processing plants','Distribution centres','Warehouse walkways','Pedestrian routes','Pick and pack areas','Chilled storage facilities'],
+      applications: ['Cold rooms', 'Freezer facilities', 'Food processing plants', 'Distribution centres', 'Warehouse walkways', 'Pedestrian routes', 'Pick and pack areas', 'Chilled storage facilities'],
       specs: [['Length','241mm'],['Width','89mm'],['Sold as','Pair'],['Colours','Yellow, white and red'],['Environment','Freezer and cold room, internal'],['Installation','Peel and stick']],
       related: ['freezer-tape', 'footprints', 'arrow']
     },
@@ -649,8 +685,8 @@
       cardCopy: 'A 910mm stop sign on the floor, for intersections and forklift crossings where a wall sign is missed.',
       badge: '910mm wide',
       tag: '910mm wide · laminated',
-      description: 'The MightyLine Stop Sign Floor Sticker gives a bold visual reminder for pedestrians and vehicle operators to stop and assess their surroundings before proceeding. It suits warehouse intersections, forklift crossings and other high-risk areas.',
-      descriptionSecondary: 'It reinforces workplace safety procedures while reducing the need for constant verbal reminders, and it sits in the one place people are already looking: the floor ahead of them.',
+      description: 'The Mighty Line Stop Sign Floor Sticker provides a bold visual reminder for pedestrians and vehicle operators to stop and assess their surroundings before proceeding. Ideal for warehouse intersections, forklift crossings and other high-risk areas, this durable floor sticker helps reinforce workplace safety procedures while reducing the need for constant verbal reminders. It’s a simple yet effective way to improve awareness and encourage safer movement throughout your facility.',
+      descriptionSecondary: '',
       colours: [],
       defaultColour: null,
       images: { _default: UP + '2026/04/Stop-Sign-Sticker.png' },
@@ -660,21 +696,22 @@
       featuresTitle: 'The sign people<br>actually look at.',
       featuresIntro: 'Wall-mounted signage gets missed. A 910mm floor sign sits in the operator line of sight at an intersection.',
       features: [
-        ['910mm wide', 'Large enough to read from an approaching forklift.'],
-        ['Highly visible design', 'Standard stop sign format needs no explanation.'],
-        ['Laminated finish', 'Durable laminate for long-lasting performance underfoot.'],
-        ['Reinforces procedure', 'Backs up your traffic management plan at the point of risk.'],
-        ['Peel and stick', 'Quick installation with no production downtime.'],
-        ['Indoor industrial use', 'Suits a wide range of internal industrial environments.']
+        ['', 'Highly visible stop sign design'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', 'Durable laminated finish for long-lasting performance'],
+        ['', 'Reinforces workplace safety procedures'],
+        ['', 'Helps improve awareness at high-risk intersections'],
+        ['', 'Professional, easy-to-read design'],
+        ['', 'Suitable for a wide range of indoor industrial environments']
       ],
       notes: [
-        'Designed for internal use only',
-        'Not recommended for rough, damaged or uneven surfaces',
-        'Excessive forklift traffic or dragging heavy objects over the sticker may reduce lifespan',
-        'Ensure the surface is clean and dry before installation for maximum adhesion',
+        'Designed for internal use only.',
+        'Not recommended for rough, damaged or uneven surfaces.',
+        'Excessive forklift traffic or dragging heavy objects directly over the sticker may reduce its lifespan.',
+        'Ensure the surface is clean and dry before installation for maximum adhesion.',
         '910mm wide'
       ],
-      applications: ['Intersections','Forklift crossings','Pedestrian walkways','Entrances and exits','Production areas','Loading docks','High-risk traffic zones'],
+      applications: ['Intersections', 'Forklift crossings', 'Pedestrian walkways', 'Entrances and exits', 'Production areas', 'Loading docks', 'High-risk traffic zones'],
       specs: [['Width','910mm'],['Finish','Laminated'],['Message','STOP'],['Environment','Internal only'],['Custom designs','Available on request'],['Installation','Peel and stick']],
       related: ['forklift-sign', 'keep-clear', 'mightyline-tape']
     },
@@ -695,8 +732,8 @@
       cardCopy: 'A 610mm warning sign for the point where pedestrians walk into a forklift route.',
       badge: '610mm wide',
       tag: '610mm wide · industrial strength',
-      description: 'Warning Forklift Traffic, MightyLine floor sign, industrial strength, 610mm wide. MightyLine safety floor signs are a strong floor marking tool for 5S facilities, lean operations and general warehouse safety.',
-      descriptionSecondary: 'Place it where a pedestrian route enters a shared aisle, so the warning is in front of people before they step into the traffic lane. Other designs are available on request.',
+      description: 'The Warning Forklift Traffic Floor Sticker delivers a bold, highly visible reminder exactly where it matters most. Ideal for busy warehouses where it can alert pedestrians to forklift activity ahead, helping reinforce safe behaviour and improve awareness in shared traffic areas.',
+      descriptionSecondary: '',
       colours: [],
       defaultColour: null,
       images: { _default: UP + '2020/06/warning-forklift-sticker.png' },
@@ -706,21 +743,23 @@
       featuresTitle: 'Warn people before<br>they step in.',
       featuresIntro: 'The highest-value place for this sign is the threshold, not the middle of the aisle.',
       features: [
-        ['610mm wide', 'Reads clearly from walking pace on approach.'],
-        ['Industrial strength', 'Built for the traffic of a working warehouse floor.'],
-        ['5S and lean ready', 'Fits straight into an existing visual management system.'],
-        ['Peel and stick', 'Quick install with no production downtime.'],
-        ['Other designs available', 'Custom messages produced on request.'],
-        ['Internal industrial use', 'Suits warehouses, workshops and production facilities.']
+        ['', 'Bold, highly visible forklift warning'],
+        ['', 'Helps alert pedestrians to approaching forklift traffic'],
+        ['', 'Durable construction for industrial environments'],
+        ['', 'Quick and easy peel-and-stick installation'],
+        ['', 'No production downtime required'],
+        ['', 'Easy-to-clean surface']
       ],
       notes: [
-        'Designed for internal use only',
-        'Not recommended for rough, damaged or uneven surfaces',
-        'Excessive forklift traffic or dragging heavy objects over the sticker may reduce lifespan',
-        'Ensure the surface is clean and dry before installation for maximum adhesion',
-        '610mm wide'
+        'For internal use only',
+        'Apply to a clean, dry and oil-free surface',
+        'Best suited to smooth, sound floor surfaces',
+        'Heavy wheel turning, pallet dragging or scraping may cause damage',
+        'Do not apply over existing tape or damaged coatings',
+        'Position where the warning is clearly visible to approaching pedestrians',
+        '610m wide'
       ],
-      applications: APPLICATION_LIST,
+      applications: ['Forklift crossings', 'Pedestrian and forklift intersections', 'Warehouse aisles', 'Loading and dispatch areas', 'Manufacturing facilities', 'High-traffic warehouse areas'],
       specs: [['Width','610mm'],['Message','Warning Forklift Traffic'],['Finish','Industrial strength'],['Environment','Internal only'],['Custom designs','Available on request'],['Installation','Peel and stick']],
       related: ['stop-sign', 'keep-clear', 'footprints']
     },
@@ -741,8 +780,8 @@
       cardCopy: 'Marks the floor in front of exits, switchboards and fire equipment so nothing gets stored there.',
       badge: '610mm wide',
       tag: '610mm wide · laminated',
-      description: 'The Keep Clear, Do Not Block Floor Sticker is industrial strength and holds up to a medium amount of traffic. It gives an instant visual reminder to keep important access points free from obstruction.',
-      descriptionSecondary: 'It suits emergency exits, electrical switchboards, fire equipment and access zones, clearly communicating where items should never be stored. Other designs are available on request.',
+      description: 'The Keep Clear – Do Not Block Floor Sticker is industrial strength ensuring it can withstand a medium amount of traffic. It provides an instant visual reminder to keep important access points free from obstruction. Ideal for emergency exits, electrical switchboards, fire equipment and access zones, this durable floor sticker reinforces workplace safety by clearly communicating where items should never be stored. It’s a simple, professional solution that helps create safer, more organised industrial workplaces. Other designs are available on request.',
+      descriptionSecondary: '',
       colours: [],
       defaultColour: null,
       images: { _default: UP + '2026/04/Keep-Clear-Sticker.png' },
@@ -752,21 +791,22 @@
       featuresTitle: 'Stops the floor<br>becoming storage.',
       featuresIntro: 'Most blocked switchboards and exits are not deliberate. A marked floor removes the ambiguity.',
       features: [
-        ['610mm wide', 'Large enough to define the zone that must stay clear.'],
-        ['Clear safety message', 'Keep Clear, Do Not Block, with no interpretation needed.'],
-        ['Laminated finish', 'Durable laminate for long-lasting performance.'],
-        ['Medium traffic rated', 'Industrial strength for general warehouse floors.'],
-        ['Peel and stick', 'Quick install with no production downtime.'],
-        ['Other designs available', 'Custom messages produced on request.']
+        ['', 'Highly visible “Keep Clear – Do Not Block” safety message'],
+        ['', 'Quick peel-and-stick installation'],
+        ['', 'Durable laminated finish for long-lasting performance'],
+        ['', 'Helps reinforce workplace safety procedures'],
+        ['', 'Reduces the need for constant verbal reminders'],
+        ['', 'Professional, easy-to-read design'],
+        ['', 'Suitable for a variety of indoor industrial environments']
       ],
       notes: [
-        'Designed for internal use only',
-        'Not recommended for rough, damaged or uneven surfaces',
-        'Excessive forklift traffic or dragging heavy objects over the sticker may reduce lifespan',
-        'Ensure the surface is clean and dry before installation for maximum adhesion',
+        'Designed for internal use only.',
+        'Not recommended for rough, damaged or uneven surfaces.',
+        'Excessive forklift traffic or dragging heavy objects directly over the sticker may reduce its lifespan.',
+        'Ensure the surface is clean and dry before installation for maximum adhesion.',
         '610mm wide'
       ],
-      applications: ['Emergency exits','Fire extinguishers and hose reels','Electrical switchboards','First aid stations','Safety equipment','Access panels','Walkways'],
+      applications: ['Emergency exits', 'Fire extinguishers and hose reels', 'Electrical switchboards', 'First aid stations', 'Safety equipment', 'Access panels', 'Walkways'],
       specs: [['Width','610mm'],['Message','Keep Clear, Do Not Block'],['Finish','Laminated'],['Traffic rating','Medium'],['Environment','Internal only'],['Custom designs','Available on request'],['Installation','Peel and stick']],
       related: ['stop-sign', 'forklift-sign', 'external-tape']
     }
@@ -774,474 +814,14 @@
 
   // Live-checked copy reconciled before mirroring the revised mockups.
   var reviewedProductCopy = {
-  "angle-shape": {
-    "description": "Durable corner markers for pallet bays, storage locations and equipment zones. Create clear 5S layouts using less material than full floor outlines.",
-    "descriptionSecondary": "",
-    "cardCopy": "Durable corner markers for pallet bays, storage locations and equipment zones. Create clear 5S layouts using less material than full floor outlines.",
-    "features": [
-      [
-        "",
-        "Heavy-duty construction withstands industrial wheeled traffic"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "Defines bay corners using less material than complete boxes"
-      ],
-      [
-        "",
-        "Easy to clean, replace or reposition as layouts change"
-      ],
-      [
-        "",
-        "3-year warranty"
-      ]
-    ],
-    "notes": [
-      "For internal use only",
-      "Apply to a clean, dry, oil-free surface, not over existing paint or tape",
-      "Surface preparation is essential for maximum adhesion",
-      "Wheel spinning, sharp turning and dragged equipment may cause damage",
-      "Dimensions: 152 × 50mm or 152 × 75mm"
-    ],
-    "applications": [
-      "Pallet bays",
-      "Storage locations",
-      "Equipment parking",
-      "Workstations",
-      "Pick and pack areas",
-      "Production zones",
-      "Manufacturing",
-      "Distribution centres"
-    ]
-  },
 
-  "footprints": {
-    "description": "Highly visible footprints guide pedestrians along designated routes and separate pedestrian movement from operational areas. Supplied as a pair, each footprint is 241 × 89mm.",
-    "descriptionSecondary": "",
-    "cardCopy": "Highly visible footprints guide pedestrians along designated routes and separate pedestrian movement from operational areas. Supplied as a pair, each footprint is 241 × 89mm.",
-    "features": [
-      [
-        "",
-        "Durable industrial construction with a highly visible footprint design"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "Clearly identifies pedestrian routes"
-      ],
-      [
-        "",
-        "Easy to clean, replace or reposition"
-      ],
-      [
-        "",
-        "Supports Lean and 5S visual management"
-      ]
-    ],
-    "notes": [
-      "For internal use only",
-      "Apply to a clean, dry, oil-free surface, not over existing paint or tape",
-      "Surface preparation is essential for maximum adhesion",
-      "Heavy wheel spinning, sharp turning or dragged equipment may cause damage"
-    ],
-    "applications": [
-      "Pedestrian walkways",
-      "Warehouse aisles",
-      "Safe routes",
-      "Production areas",
-      "Pick and pack zones",
-      "Manufacturing",
-      "Distribution centres"
-    ]
-  },
-  "external-tape": {
-    "description": "Weather-resistant floor tape for outdoor asphalt and concrete. Built for rain, UV exposure and heavy pedestrian traffic, it creates visible, flexible layouts without painted lines.",
-    "descriptionSecondary": "",
-    "cardCopy": "Weather-resistant floor tape for outdoor asphalt and concrete. Built for rain, UV exposure and heavy pedestrian traffic, it creates visible, flexible layouts without painted lines.",
-    "features": [
-      [
-        "",
-        "Designed for outdoor asphalt and concrete"
-      ],
-      [
-        "",
-        "1.3mm thick, up to seven times thicker than standard tapes and paint"
-      ],
-      [
-        "",
-        "P5 slip-rated surface"
-      ],
-      [
-        "",
-        "Highly reflective for low-light and night-time visibility"
-      ],
-      [
-        "",
-        "Weather and UV resistant"
-      ],
-      [
-        "",
-        "Peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "Easy to remove, replace or cut to custom lengths and shapes"
-      ],
-      [
-        "",
-        "3-year warranty"
-      ]
-    ],
-    "notes": [
-      "For external use only",
-      "Surface preparation is essential for adhesion and lifespan",
-      "Do not apply over paint, tape or contaminated surfaces",
-      "Not suitable for loose, damaged or heavily textured surfaces",
-      "Heavy turning, wheel spinning and dragged equipment may reduce lifespan",
-      "25m roll; confirm width when ordering"
-    ],
-    "applications": [
-      "Hazards and exclusion zones",
-      "Keep-clear areas",
-      "Emergency access",
-      "Forklift routes",
-      "Vehicle lanes",
-      "Shared traffic zones",
-      "Fire equipment boundaries",
-      "Walkways",
-      "Storage bays",
-      "Loading areas"
-    ]
-  },
-  "freezer-footprints": {
-    "description": "Freezer-grade footprints guide pedestrians through cold rooms and freezer facilities. Designed for sub-zero environments where standard floor markings can fail.",
-    "descriptionSecondary": "",
-    "cardCopy": "Freezer-grade footprints guide pedestrians through cold rooms and freezer facilities. Designed for sub-zero environments where standard floor markings can fail.",
-    "features": [
-      [
-        "",
-        "Designed for freezer and cold room environments"
-      ],
-      [
-        "",
-        "Highly visible footprint design"
-      ],
-      [
-        "",
-        "Excellent adhesion in sub-zero temperatures"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation"
-      ],
-      [
-        "",
-        "Reinforces designated walkways; easy to replace when layouts change"
-      ]
-    ],
-    "notes": [
-      "For indoor freezer and cold room applications only",
-      "Surface must be clean, dry and free from contaminants",
-      "Dragging pallets or equipment over the footprints may reduce lifespan",
-      "Each footprint is 241mm long and 89mm wide"
-    ],
-    "applications": [
-      "Cold rooms",
-      "Freezer facilities",
-      "Food processing",
-      "Distribution centres",
-      "Warehouse walkways",
-      "Pedestrian routes",
-      "Pick and pack areas",
-      "Chilled storage"
-    ]
-  },
-  "arrow": {
-    "description": "Heavy-duty directional arrows create clear routes for pedestrians and vehicles. Reinforce traffic flow and support a safer, more organised 5S workplace.",
-    "descriptionSecondary": "",
-    "cardCopy": "Heavy-duty directional arrows create clear routes for pedestrians and vehicles. Reinforce traffic flow and support a safer, more organised 5S workplace.",
-    "features": [
-      [
-        "",
-        "Highly visible directional arrow"
-      ],
-      [
-        "",
-        "Heavy-duty construction withstands industrial wheeled traffic"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "Durable, easy-to-clean surface"
-      ],
-      [
-        "",
-        "Reinforces traffic flow and visual management"
-      ],
-      [
-        "",
-        "Easy to replace or reposition"
-      ]
-    ],
-    "notes": [
-      "For internal use only",
-      "Apply to a clean, dry, oil-free surface, not over paint or tape",
-      "Surface preparation is essential for maximum adhesion",
-      "Wheel spinning, sharp turning or dragged equipment may cause damage",
-      "254mm long and 152mm wide"
-    ],
-    "applications": [
-      "Forklift routes",
-      "Pedestrian walkways",
-      "Warehouse aisles",
-      "One-way systems",
-      "Loading and dispatch",
-      "Manufacturing",
-      "Distribution centres"
-    ]
-  },
-  "forklift-sign": {
-    "description": "A bold floor-level warning that alerts pedestrians to forklift activity ahead. Reinforce safe behaviour and improve awareness in shared warehouse traffic areas.",
-    "descriptionSecondary": "",
-    "cardCopy": "A bold floor-level warning that alerts pedestrians to forklift activity ahead. Reinforce safe behaviour and improve awareness in shared warehouse traffic areas.",
-    "features": [
-      [
-        "",
-        "Highly visible forklift warning alerts approaching pedestrians"
-      ],
-      [
-        "",
-        "Durable industrial construction"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "Easy-to-clean surface"
-      ]
-    ],
-    "notes": [
-      "For internal use on smooth, sound floors",
-      "Apply to a clean, dry, oil-free surface",
-      "Heavy wheel turning, pallet dragging or scraping may cause damage",
-      "Do not apply over existing tape or damaged coatings",
-      "Position clearly for approaching pedestrians",
-      "Confirm dimensions with Cotewell before ordering"
-    ],
-    "applications": [
-      "Forklift crossings",
-      "Pedestrian and forklift intersections",
-      "Warehouse aisles",
-      "Loading and dispatch",
-      "Manufacturing",
-      "High-traffic warehouse areas"
-    ]
-  },
 
-  "lean-line-570": {
-    "description": "A fast, flexible floor tape for low-traffic indoor visual management. Define work areas, walkways, storage locations and equipment zones without the mess or downtime of painted lines.",
-    "descriptionSecondary": "",
-    "cardCopy": "A fast, flexible floor tape for low-traffic indoor visual management. Define work areas, walkways, storage locations and equipment zones without the mess or downtime of painted lines.",
-    "features": [
-      [
-        "",
-        "0.5mm thick with square-cut edges"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "1-year warranty"
-      ],
-      [
-        "",
-        "Suitable for pharmaceutical and food production environments without installation contamination"
-      ],
-      [
-        "",
-        "Easy-to-clean surface and bright colours"
-      ],
-      [
-        "",
-        "Easy to replace as layouts change"
-      ]
-    ],
-    "notes": [
-      "For indoor applications above 10°C",
-      "Apply to a clean, dry, oil-free surface",
-      "Not recommended for rough, damaged or porous concrete",
-      "Do not apply over paint, tape or lengthways over floor joints",
-      "Heavy forklift turning and pallet dragging may reduce lifespan",
-      "Warranty does not cover damage",
-      "Cut to any length; 50mm × 30m rolls",
-      "Confirm suitability for your site's traffic before ordering"
-    ],
-    "applications": [
-      "Walkways",
-      "Storage locations",
-      "Pallet bays",
-      "Equipment parking",
-      "Production lines",
-      "Workstations"
-    ]
-  },
-  "t-shape": {
-    "description": "Durable T-shaped markers define adjoining pallet bays, storage locations and work areas without complete floor outlines. Maintain clear, consistent layouts across busy industrial workplaces.",
-    "descriptionSecondary": "",
-    "cardCopy": "Durable T-shaped markers define adjoining pallet bays, storage locations and work areas without complete floor outlines. Maintain clear, consistent layouts across busy industrial workplaces.",
-    "features": [
-      [
-        "",
-        "Heavy-duty construction withstands industrial wheeled traffic"
-      ],
-      [
-        "",
-        "Creates multiple adjoining pallet or storage bays"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "Highly visible, easy-to-clean surface"
-      ],
-      [
-        "",
-        "Easy to replace or reposition as layouts change"
-      ],
-      [
-        "",
-        "Supports Lean Manufacturing and 5S organisation"
-      ]
-    ],
-    "notes": [
-      "For internal use only",
-      "Apply to a clean, dry, oil-free surface, not over existing paint or tape",
-      "Surface preparation is essential for maximum adhesion",
-      "Wheel spinning, sharp turning and dragged equipment may cause damage",
-      "Ideal for adjoining bays with a shared boundary point",
-      "50mm and 75mm widths"
-    ],
-    "applications": [
-      "Pallet bays",
-      "Storage locations",
-      "Equipment parking",
-      "Workstations",
-      "Pick and pack areas",
-      "Production zones",
-      "Warehouses",
-      "Manufacturing",
-      "Lean and 5S workplaces"
-    ]
-  },
-  "keep-clear": {
-    "description": "An industrial-strength floor sticker for medium traffic. Keep emergency exits, electrical switchboards, fire equipment and access areas clear with an immediate, easy-to-read reminder.",
-    "descriptionSecondary": "",
-    "cardCopy": "An industrial-strength floor sticker for medium traffic. Keep emergency exits, electrical switchboards, fire equipment and access areas clear with an immediate, easy-to-read reminder.",
-    "features": [
-      [
-        "",
-        "Highly visible Keep Clear / Do Not Block message"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation"
-      ],
-      [
-        "",
-        "Durable laminated finish"
-      ],
-      [
-        "",
-        "Reinforces safety procedures and reduces repeated verbal reminders"
-      ],
-      [
-        "",
-        "Professional, easy-to-read design for indoor industrial environments"
-      ]
-    ],
-    "notes": [
-      "For internal use only",
-      "Not recommended for rough, damaged or uneven surfaces",
-      "Excessive forklift traffic and dragged objects may reduce lifespan",
-      "Apply to a clean, dry surface for maximum adhesion",
-      "610mm wide"
-    ],
-    "applications": [
-      "Emergency exits",
-      "Fire extinguishers and hose reels",
-      "Electrical switchboards",
-      "First aid stations",
-      "Safety equipment",
-      "Access panels",
-      "Walkways"
-    ]
-  },
-  "lean-line-960": {
-    "description": "Durable, flexible floor tape for medium-traffic workplaces. Mark walkways, storage areas and workstations with no curing time, and update layouts as operations change.",
-    "descriptionSecondary": "",
-    "cardCopy": "Durable, flexible floor tape for medium-traffic workplaces. Mark walkways, storage areas and workstations with no curing time, and update layouts as operations change.",
-    "features": [
-      [
-        "",
-        "0.9mm thick for medium-traffic applications"
-      ],
-      [
-        "",
-        "Quick peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "Easy to remove or replace as layouts change"
-      ],
-      [
-        "",
-        "2-year warranty"
-      ],
-      [
-        "",
-        "Smooth, easy-to-clean surface"
-      ],
-      [
-        "",
-        "Suitable for pharmaceutical and food production environments"
-      ],
-      [
-        "",
-        "Square-cut edges"
-      ]
-    ],
-    "notes": [
-      "For internal use above 10°C",
-      "Apply to clean, dry, oil-free surfaces",
-      "Do not apply over paint, tape or lengthways across floor joints",
-      "Heavy forklift traffic and constant pallet dragging may reduce lifespan",
-      "Warranty does not cover damage",
-      "50mm × 30m rolls"
-    ],
-    "applications": [
-      "Walkways",
-      "Storage locations",
-      "Workstation boundaries",
-      "Equipment storage",
-      "Medium foot traffic and light wheeled traffic"
-    ]
-  }
+
+
+
+
+
+
 };
   Object.keys(reviewedProductCopy).forEach(function (key) {
     Object.assign(productData[key], reviewedProductCopy[key]);
