@@ -69,8 +69,8 @@
       cardCopy: 'The thickest tape in the range, built to take constant forklift and wheeled traffic without lifting.',
       badge: '1.3mm · 3 yr warranty',
       tag: '1.3mm bevelled-edge roll',
-      description: 'MightyLine Standard Floor Tape is a premium floor marking solution for busy industrial workplaces where durability matters. At 1.3mm thick, up to seven times thicker than many standard floor tapes, it is built to withstand heavy forklift and industrial wheeled traffic while keeping a clean, professional appearance.',
-      descriptionSecondary: 'Unlike painted lines it installs quickly with no production downtime, needs minimal ongoing maintenance and can be removed or reconfigured as your workplace evolves. Backed by a 3-year limited adhesion warranty.',
+      description: 'Mighty Line Standard Floor Tape is a premium floor marking solution designed for busy industrial workplaces where durability matters. At 1.3mm thick – up to seven times thicker than many standard floor tapes – it’s built to withstand heavy forklift and industrial wheeled traffic while maintaining a clean, professional appearance.',
+      descriptionSecondary: 'Unlike painted lines, Mighty Line installs quickly with no production downtime, requires minimal ongoing maintenance and can be easily removed or reconfigured as your workplace evolves. Its exceptional performance is backed by a 3-year limited adhesion warranty, giving you confidence in a long-lasting line marking solution.',
       colours: TAPE_COLOURS,
       widths: ['50mm', '100mm'],
       defaultColour: 'yellow',
@@ -100,28 +100,33 @@
       featuresTitle: 'Seven times thicker<br>than standard tape.',
       featuresIntro: 'MightyLine is the tape to specify when forklifts run the line every day. It costs more per roll and it stops the re-taping cycle.',
       features: [
-        ['1.3mm thick', 'Up to 7x thicker than many standard floor marking tapes.'],
-        ['Built for forklift traffic', 'Designed for heavy industrial forklift and wheeled traffic.'],
-        ['Bevelled edges', 'Helps minimise lifting and gives a smooth transition underfoot.'],
-        ['No production downtime', 'Fast peel-and-stick DIY installation with nothing to cure.'],
-        ['Clean removal', 'Easy to remove with minimal sticky residue at end of lease.'],
-        ['Up to 60% less maintenance', 'Compared with the ongoing cost of painted line marking.'],
-        ['Food and pharma safe', 'No contamination during installation in production environments.'],
-        ['3-year adhesion warranty', 'Limited adhesion warranty on the standard range.'],
-        ['Repairable in sections', 'Damaged runs can be replaced without redoing the whole line.']
+        ['', '1.3mm thick – up to 7x thicker than many standard floor tapes'],
+        ['', 'Built to withstand heavy industrial forklift and wheeled traffic'],
+        ['', 'Bevelled edges help minimise lifting and provide a smooth transition'],
+        ['', 'Fast peel-and-stick installation with no production downtime (DIY installation)'],
+        ['', 'Easy to remove with minimal sticky residue'],
+        ['', 'Saves up to 60% in ongoing maintenance compared to painted line marking'],
+        ['', 'Smooth, easy-to-clean surface maintains a professional appearance'],
+        ['', 'Suitable for pharmaceutical and food production environments with no contamination during installation'],
+        ['', 'Backed by a 3-year limited adhesion warranty'],
+        ['', 'Easy to repair damaged sections without replacing all of it']
       ],
       notes: [
-        'Ensure the surface is clean, dry and oil free before installation',
-        'Do not apply tape lengthways along floor joints',
+        'Only suitable for applications where the ambient temperature is above 10°C',
+        'Ensure surface is clean, dry and oil free before installation',
+        'Do not apply tape lengthways on floor joints',
         'Not suitable for external use',
         'Do not apply over existing paint or tape',
         'Warranty does not cover damage',
-        'Continuous pallet dragging or wheel spinning may reduce lifespan',
-        'Not recommended for rough, damaged or uneven concrete'
+        'Available in multiple colours and widths to suit your visual management system',
+        'Continuous dragging of pallets or heavy wheel spinning may reduce product lifespan',
+        'Not recommended for rough, damaged or uneven concrete surfaces.',
+        'Length: 30m',
+        'Widths: 50mm & 100mm'
       ],
       applications: ['Pedestrian walkways','Forklift routes','Pallet storage bays','Equipment parking areas','Material storage zones','Workstations','Production lines','Keep-clear zones','Safety and exclusion zones','Industrial facilities'],
       specs: [['Thickness','1.3mm'],['Widths','50mm and 100mm'],['Colours','14, including three diagonal hazard patterns'],['Warranty','3-year limited adhesion warranty'],['Traffic rating','Heavy forklift and wheeled traffic'],['Environment','Internal only'],['Edges','Bevelled'],['Installation','Peel and stick, no curing time']],
-      extra: 'Customised shapes, barcodes and symbols are available. Send our team the artwork or the message and they will quote it.',
+      extra: 'We also offer a range of customised shapes/barcodes/symbols - simply reach out to our team with your desired customisation and they will be happy to assist.',
       related: ['freezer-tape', 'lean-line-960', 'angle-shape']
     },
 
@@ -140,8 +145,8 @@
       cardCopy: 'The tape to use where standard floor markings peel, crack or lift in cold storage.',
       badge: 'Proven to -29°C',
       tag: 'Freezer-rated adhesive',
-      description: 'MightyLine X-Treme Freezer Tape is built to withstand the extreme temperatures found in cold, freezer storage and warehouse environments. It is proven at temperatures as low as -29&deg;C, where standard floor marking adhesives commonly fail.',
-      descriptionSecondary: 'It is designed to take a beating from industrial wheel traffic, which is what gives us the confidence to offer a 2-year limited warranty on it.',
+      description: 'The Mighty Line X-Treme Freezer Tape is specifically engineered for cold rooms, freezer warehouses and chilled environments where standard floor tapes often fail. Proven to perform in temperatures as low as -29°C, its freezer-grade adhesive and durable 1.3mm construction provide long-lasting floor markings that withstand heavy industrial wheeled traffic while maintaining a clean, professional appearance.',
+      descriptionSecondary: 'Backed by a 2-year limited warranty, it’s the ideal solution for creating reliable floor markings in demanding cold storage environments.',
       colours: ['yellow', 'white', 'red'],
       widths: ['50mm', '100mm'],
       defaultColour: 'white',
@@ -159,20 +164,28 @@
       featuresTitle: 'Marking that holds<br>at -29&deg;C.',
       featuresIntro: 'Cold storage is the environment where most floor marking fails first. This is the product built for it.',
       features: [
-        ['Proven to -29&deg;C', 'Tested and used in freezer and cold storage environments.'],
-        ['Industrial wheel traffic', 'Designed to take a beating from wheeled traffic in cold aisles.'],
-        ['2-year limited warranty', 'Backed for the environment it is specified for.'],
-        ['Peel and stick', 'No curing time and no production downtime during install.'],
-        ['Two widths', 'Available in 50mm and 100mm to suit aisle and boundary marking.'],
-        ['High-visibility colours', 'Yellow, white and red for cold, low-contrast environments.']
+        ['', 'Designed for temperatures as low as -29°C'],
+        ['', '1.3mm thick – up to 7x thicker than many standard floor tapes'],
+        ['', 'Freezer-grade adhesive for superior performance'],
+        ['', 'Withstands heavy industrial wheeled traffic'],
+        ['', 'Bevelled edges for a smooth transition of wheeled traffic'],
+        ['', 'Quick peel-and-stick installation – no special equipment required'],
+        ['', 'Easy to remove with minimal residue when layouts change'],
+        ['', '2-year limited warranty'],
+        ['', 'No production downtime required during installation'],
+        ['', 'Suitable for pharmaceutical and food processing environments with no contamination concerns'],
+        ['', 'Smooth, easy-to-clean surface that maintains a professional appearance'],
+        ['', 'Can be cut to any length to create custom floor marking layouts.']
       ],
       notes: [
-        'Intended for cold room, freezer and chilled storage applications',
-        'Surface must be clean, dry and frost free before installation',
-        'Do not apply over existing paint or tape',
-        'Warranty does not cover damage'
+        'Surface must be clean, dry and free from contaminants before installation.',
+        'Heavy wheel spinning, pallet dragging or excessive abrasion may reduce product lifespan.',
+        'Do not apply over existing paint or floor tape.',
+        'The manufacturer\'s warranty does not cover damage caused by misuse or incorrect installation.',
+        'Length: 30m',
+        'Widths: 50mm & 100mm'
       ],
-      applications: APPLICATION_LIST,
+      applications: ['Cold rooms', 'Freezer warehouses', 'Food processing facilities', 'Chilled storage areas', 'Distribution centres', 'Warehouse walkways', 'Forklift traffic lanes', 'Storage locations', 'Pick and pack areas'],
       specs: [['Temperature rating','Proven to -29&deg;C'],['Widths','50mm and 100mm'],['Colours','Yellow, white and red'],['Warranty','2-year limited warranty'],['Traffic rating','Industrial wheeled traffic'],['Environment','Cold rooms, freezers and chilled storage'],['Installation','Peel and stick, no curing time']],
       related: ['freezer-footprints', 'mightyline-tape', 'lean-line-960']
     },
@@ -805,73 +818,7 @@
       "Distribution centres"
     ]
   },
-  "mightyline-tape": {
-    "description": "Premium 1.3mm floor tape for heavy forklift and industrial wheeled traffic. Bevelled edges, quick installation and low maintenance make it a flexible alternative to painted lines.",
-    "descriptionSecondary": "",
-    "cardCopy": "Premium 1.3mm floor tape for heavy forklift and industrial wheeled traffic. Bevelled edges, quick installation and low maintenance make it a flexible alternative to painted lines.",
-    "features": [
-      [
-        "",
-        "1.3mm thick, up to seven times thicker than many standard floor tapes"
-      ],
-      [
-        "",
-        "Withstands heavy industrial forklift and wheeled traffic"
-      ],
-      [
-        "",
-        "Bevelled edges minimise lifting and provide a smooth transition"
-      ],
-      [
-        "",
-        "DIY peel-and-stick installation with no production downtime"
-      ],
-      [
-        "",
-        "Removes with minimal residue; damaged sections are easy to repair"
-      ],
-      [
-        "",
-        "Up to 60% lower ongoing maintenance than painted line marking"
-      ],
-      [
-        "",
-        "Smooth, easy-to-clean surface"
-      ],
-      [
-        "",
-        "Suitable for pharmaceutical and food production environments, with no contamination during installation"
-      ],
-      [
-        "",
-        "3-year limited adhesion warranty"
-      ],
-      [
-        "",
-        "Custom shapes, barcodes and symbols available on request"
-      ]
-    ],
-    "notes": [
-      "For internal applications above 10°C only",
-      "Apply to a clean, dry, oil-free surface, not over existing paint or tape",
-      "Do not apply lengthways over floor joints",
-      "Not recommended for rough, damaged or uneven concrete",
-      "Continuous pallet dragging and heavy wheel spinning may reduce lifespan",
-      "Warranty does not cover damage",
-      "30m rolls; 50mm and 100mm widths"
-    ],
-    "applications": [
-      "Pedestrian walkways",
-      "Forklift routes",
-      "Pallet bays",
-      "Equipment parking",
-      "Material storage",
-      "Workstations",
-      "Production lines",
-      "Keep-clear areas",
-      "Safety and exclusion zones"
-    ]
-  },
+
   "footprints": {
     "description": "Highly visible footprints guide pedestrians along designated routes and separate pedestrian movement from operational areas. Supplied as a pair, each footprint is 241 × 89mm.",
     "descriptionSecondary": "",
@@ -1102,68 +1049,7 @@
       "High-traffic warehouse areas"
     ]
   },
-  "freezer-tape": {
-    "description": "Freezer-grade adhesive and durable 1.3mm construction provide reliable floor markings in cold rooms and freezer warehouses, performing at temperatures as low as −29°C.",
-    "descriptionSecondary": "",
-    "cardCopy": "Freezer-grade adhesive and durable 1.3mm construction provide reliable floor markings in cold rooms and freezer warehouses, performing at temperatures as low as −29°C.",
-    "features": [
-      [
-        "",
-        "Designed for temperatures as low as −29°C"
-      ],
-      [
-        "",
-        "1.3mm thick, up to seven times thicker than many standard floor tapes"
-      ],
-      [
-        "",
-        "Freezer-grade adhesive withstands heavy industrial wheeled traffic"
-      ],
-      [
-        "",
-        "Bevelled edges provide a smooth transition"
-      ],
-      [
-        "",
-        "Peel-and-stick installation with no special equipment or production downtime"
-      ],
-      [
-        "",
-        "Easy to remove with minimal residue; cut to any length"
-      ],
-      [
-        "",
-        "Smooth, easy-to-clean surface"
-      ],
-      [
-        "",
-        "Suitable for pharmaceutical and food processing environments"
-      ],
-      [
-        "",
-        "2-year limited warranty"
-      ]
-    ],
-    "notes": [
-      "Install at ambient temperatures between −29°C and +10°C",
-      "Surface must be clean, dry, oil-free and free from contaminants",
-      "Do not apply over paint, tape or lengthways over floor joints",
-      "Heavy wheel spinning, pallet dragging and abrasion may reduce lifespan",
-      "Warranty does not cover misuse or incorrect installation",
-      "30m rolls; 50mm and 100mm widths"
-    ],
-    "applications": [
-      "Cold rooms",
-      "Freezer warehouses",
-      "Food processing",
-      "Chilled storage",
-      "Distribution centres",
-      "Walkways",
-      "Forklift lanes",
-      "Storage locations",
-      "Pick and pack areas"
-    ]
-  },
+
   "lean-line-570": {
     "description": "A fast, flexible floor tape for low-traffic indoor visual management. Define work areas, walkways, storage locations and equipment zones without the mess or downtime of painted lines.",
     "descriptionSecondary": "",
