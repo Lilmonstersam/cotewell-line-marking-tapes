@@ -1015,7 +1015,7 @@
             '<p class="mono">' + a.cat + '</p>' +
             '<h3>' + a.title + '</h3>' +
             '<p>' + a.blurb + '</p>' +
-            '<span class="text-link">Read the article <b>&rarr;</b></span>' +
+            '<span class="text-link">Read the article</span>' +
           '</div></a>';
       }).join('');
       articles.dataset.rendered = '1';
