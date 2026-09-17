@@ -1505,6 +1505,43 @@
     items.forEach(function (i) { observer.observe(i); });
   }
 
+  /* ------------------------------------------------------------------ inline videos */
+  var projectCards = $$('a.project-card[href$=".mp4"]');
+  projectCards.forEach(function (card) {
+    card.addEventListener('click', function (e) {
+      e.preventDefault();
+      var mediaContainer = card.querySelector('.project-card__media');
+      if (!mediaContainer) return;
+      
+      var img = mediaContainer.querySelector('img');
+      var svg = mediaContainer.querySelector('svg');
+      var span = mediaContainer.querySelector('span');
+      
+      if (img) img.style.display = 'none';
+      if (svg) svg.style.display = 'none';
+      if (span) span.style.display = 'none';
+      
+      var video = mediaContainer.querySelector('video');
+      if (!video) {
+        video = document.createElement('video');
+        video.src = card.getAttribute('href');
+        video.controls = true;
+        video.autoplay = true;
+        video.playsInline = true;
+        video.style.width = '100%';
+        video.style.height = '100%';
+        video.style.objectFit = 'cover';
+        video.style.position = 'absolute';
+        video.style.top = '0';
+        video.style.left = '0';
+        video.style.zIndex = '10';
+        video.style.background = '#000';
+        mediaContainer.appendChild(video);
+      }
+      video.play();
+    });
+  });
+
   renderRoute();
   applyFilter('all');
 })();
