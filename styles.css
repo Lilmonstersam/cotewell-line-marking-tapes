@@ -221,7 +221,7 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
   margin-bottom: 36px;
 }
 .category-products__head .mono { color: var(--signal); }
-.category-products__head h2 { margin: 7px 0 0; font-size: clamp(38px, 4.3vw, 58px); line-height: .96; letter-spacing: -.04em; text-transform: uppercase; }
+.category-products__head h2 { margin: 7px 0 0; font-size: 46px; line-height: .96; letter-spacing: -.04em; text-transform: uppercase; }
 .category-products__head > p { max-width: 48ch; margin: 0; color: var(--muted-dark); font-size: 14px; line-height: 1.6; }
 
 /* ------------------------------------------------------- filter bar */
@@ -252,10 +252,10 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
 /* ------------------------------------------------------- category product grid */
 .group-block + .group-block { margin-top: 58px; }
 .group-block[hidden] { display: none; }
-.group-head { display: grid; grid-template-columns: 1fr 1.15fr; gap: 40px; align-items: baseline; margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid var(--line-dark); }
+.group-head { display: grid; grid-template-columns: 1fr .8fr; gap: 72px; align-items: end; margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid var(--line-dark); }
 .group-head h3 { margin: 0; font-size: 25px; line-height: 1.05; letter-spacing: -.02em; text-transform: uppercase; }
 .group-head h3 em { margin-left: 8px; color: var(--signal); font-family: "Open Sans", monospace; font-size: 11px; font-style: normal; vertical-align: middle; }
-.group-head p { margin: 0; max-width: 60ch; color: var(--muted-dark); font-size: 13px; line-height: 1.6; }
+.group-head p { margin: 0; max-width: 48ch; color: var(--muted-dark); font-size: 14px; line-height: 1.6; }
 .group-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 
 .tape-card {
@@ -525,7 +525,7 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
 .section--paper { background: var(--paper); color: var(--black); }
 .section--ink { background: var(--ink); color: var(--white); }
 .section-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 80px; align-items: end; margin-bottom: 46px; }
-.section-head h2 { margin: 0; font-size: clamp(42px, 4.5vw, 64px); line-height: .96; letter-spacing: -.04em; text-transform: uppercase; }
+.section-head h2 { margin: 0; font-size: 46px; line-height: .96; letter-spacing: -.04em; text-transform: uppercase; }
 .section-head > p { margin: 0; color: var(--muted-dark); font-size: 15px; line-height: 1.62; }
 .section-head--light > p { color: rgba(255,255,255,.64); }
 
@@ -781,16 +781,21 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
 }
 
 /* ------------------------------------------------------- FAQ */
-.faq-list { border-top: 1px solid var(--line-dark); }
-.faq-item { border-bottom: 1px solid var(--line-dark); }
+.cw-faq-container { width: 100%; display: grid; grid-template-columns: minmax(0, 38fr) minmax(0, 62fr); column-gap: 60px; align-items: start; }
+.cw-faq-left-inner { display: flex; flex-direction: column; align-items: flex-start; padding-right: 20px; }
+.cw-faq-left-inner h2 { margin: 12px 0 18px; font-size: 46px; line-height: .96; letter-spacing: -.04em; text-transform: uppercase; }
+.cw-faq-left-inner > p:not(.eyebrow) { margin: 0 0 32px; color: var(--muted-dark); font-size: 20px; line-height: 1.5; }
+
+.faq-list { border-top: 1px solid #dcdcdc; }
+.faq-item { border-bottom: 1px solid #dcdcdc; }
 .faq-item summary {
+  font-family: "Big John", sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
   padding: 20px 0;
   cursor: pointer;
-  font-family: "Open Sans", sans-serif;
   font-size: 17px;
   font-weight: 800;
   letter-spacing: -.01em;
@@ -800,6 +805,7 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
 .faq-item summary::after { content: "+"; color: var(--signal); font-size: 24px; font-weight: 400; line-height: 1; }
 .faq-item[open] summary::after { content: "\2013"; }
 .faq-item[open] summary { color: var(--red); }
+.faq-content { overflow: hidden; transition: max-height 300ms ease; }
 .faq-item p { max-width: 78ch; margin: 0 0 22px; color: rgba(0,0,0,.75); font-size: 18px; line-height: 1.6; }
 
 /* ------------------------------------------------------- sample band */
@@ -807,8 +813,8 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
 .sample-band__inner { display: grid; grid-template-columns: 1.2fr auto; gap: 46px; align-items: center; }
 .sample-band .eyebrow { color: rgba(255,255,255,.78); }
 .sample-band .eyebrow span { background: var(--white); }
-.sample-band h2 { margin: 0; font-size: clamp(32px, 3.6vw, 46px); line-height: .98; letter-spacing: -.035em; text-transform: uppercase; }
-.sample-band p { max-width: 62ch; margin: 14px 0 0; color: rgba(255,255,255,.84); font-size: 14.5px; line-height: 1.6; }
+.sample-band h2 { margin: 0; font-size: 46px; line-height: .98; letter-spacing: -.035em; text-transform: uppercase; }
+.sample-band p:not(.eyebrow) { max-width: 62ch; margin: 14px 0 0; color: rgba(255,255,255,.84); font-size: 14.5px; line-height: 1.6; }
 .sample-band__actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .sample-band .button--red { background: var(--white); color: var(--red); }
 .sample-band .button--red:hover { background: var(--ink); color: var(--white); }
@@ -995,7 +1001,6 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
   .category-hero__description p + p { font-size: 13px; }
   .category-products { padding-top: 54px; }
   .category-products__head { margin-bottom: 27px; }
-  .category-products__head h2 { font-size: 38px; }
   .group-grid { grid-template-columns: 1fr; gap: 16px; }
   .group-block + .group-block { margin-top: 42px; }
   .tape-card__media { height: 250px; }
@@ -1022,7 +1027,6 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
   .quantity { width: 132px; }
   .section { padding: 58px 0; }
   .section-head { margin-bottom: 32px; }
-  .section-head h2 { font-size: clamp(36px, 11vw, 50px); }
   .section-head > p { font-size: 14px; }
   .feature-grid { grid-template-columns: 1fr; }
   .feature { min-height: 0; padding: 20px; }
@@ -1175,7 +1179,7 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
 .category-hero__copy > p.category-hero__sub { font-size: 17px; color: rgba(255,255,255,.62); margin-top: 16px; }
 
 .section-head > p { font-size: 20px; line-height: 1.5; }
-.category-products__head > p { font-size: 20px; line-height: 1.5; }
+.category-products__head > p, .group-head p { font-size: 20px; line-height: 1.5; }
 .product-description { font-size: 20px; line-height: 1.5; }
 .product-description--secondary { font-size: 17px; line-height: 1.55; }
 .faq-item p { font-size: 18px; line-height: 1.6; }
@@ -1183,7 +1187,7 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
 .compare-note { font-size: 17px; }
 .spec-extra { font-size: 17px; }
 .purchase-note { font-size: 15px; line-height: 1.6; }
-.sample-band__inner > div > p { font-size: 19px; line-height: 1.55; }
+.sample-band__inner > div > p:not(.eyebrow) { font-size: 19px; line-height: 1.55; }
 
 /* =========================================================================
    Product features: decorative panel
@@ -1252,8 +1256,9 @@ h1, h2, h3 { font-family: "Big John", sans-serif; }
 }
 @media (max-width: 900px) {
   .category-hero__copy > p:not(.eyebrow) { font-size: 18px; }
-  .section-head > p, .category-products__head > p, .product-description { font-size: 18px; }
+  .section-head > p, .category-products__head > p, .product-description, .group-head p { font-size: 18px; }
   .hero-actions .button { flex: 1 1 auto; }
+  .cw-faq-container { grid-template-columns: 1fr; gap: 40px; }
 }
 @media (max-width: 700px) {
   .features-wrap { padding: 22px 18px 24px; }

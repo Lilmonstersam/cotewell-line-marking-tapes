@@ -832,7 +832,7 @@
   var COMPARE_ROWS = [
     { key: 'mightyline-tape', thickness: '1.3mm', traffic: 'Heavy forklift', warranty: '3 years', env: 'Internal' },
     { key: 'external-tape',   thickness: '1.3mm', traffic: 'Vehicle + pedestrian', warranty: '3 years', env: 'External' },
-    { key: 'freezer-tape',    thickness: 'Freezer grade', traffic: 'Industrial wheeled', warranty: '2 years', env: 'To -29°C' },
+    { key: 'freezer-tape',    thickness: '1.3mm', traffic: 'Industrial wheeled', warranty: '2 years', env: 'To -29°C' },
     { key: 'lean-line-960',   thickness: '0.9mm', traffic: 'Medium', warranty: '2 years', env: 'Internal' },
     { key: 'lean-line-570',   thickness: '0.5mm', traffic: 'Low', warranty: '1 year', env: 'Internal' }
   ];
@@ -1001,9 +1001,30 @@
     var faq = $('[data-faq-list]');
     if (faq && !faq.dataset.rendered) {
       faq.innerHTML = FAQS.map(function (f, i) {
-        return '<details class="faq-item reveal"' + (i === 0 ? ' open' : '') + '><summary><span>' + f.q + '</span></summary><p>' + f.a + '</p></details>';
+        return '<details class="faq-item reveal"' + (i === 0 ? ' open' : '') + '><summary><span>' + f.q + '</span></summary><div class="faq-content"><p>' + f.a + '</p></div></details>';
       }).join('');
       faq.dataset.rendered = '1';
+
+      faq.querySelectorAll('summary').forEach(function(summary) {
+        summary.addEventListener('click', function(e) {
+          e.preventDefault();
+          var details = this.parentNode;
+          var content = details.querySelector('.faq-content');
+          if (details.open) {
+            content.style.maxHeight = content.scrollHeight + 'px';
+            content.offsetHeight;
+            content.style.maxHeight = '0px';
+            setTimeout(function() { details.open = false; }, 300);
+          } else {
+            details.open = true;
+            content.style.maxHeight = '0px';
+            var h = content.scrollHeight;
+            content.offsetHeight;
+            content.style.maxHeight = h + 'px';
+            setTimeout(function() { content.style.maxHeight = 'none'; }, 300);
+          }
+        });
+      });
     }
 
     var articles = $('[data-article-grid]');
