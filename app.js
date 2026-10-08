@@ -840,11 +840,11 @@
   /* Learning-centre articles that answer the questions the FAQ cannot cover in a
      paragraph. Placed under the FAQ so the next click stays on Cotewell. */
   var ARTICLES = [
-    { href: 'https://cotewell.com.au/sick-of-repainting-your-lines-every-6-months-so-was-this-customer/',
-      img: UP + '2026/08/Customer-Story-CAP-Line-Marking-for-Blog-1024x576.jpg',
-      cat: 'Customer story',
-      title: 'Sick of repainting your lines every 6 months? So was this customer',
-      blurb: 'A concrete plant repainting every six months moved to Cold Applied Plastic. Eighteen months on, the lines are still doing the job.' },
+    { href: 'https://cotewell.com.au/case-study-5-years-later-mighty-line-tape-is-still-visible/',
+      img: 'https://cotewell.com.au/wp-content/uploads/2026/09/shared-image-1.jpg',
+      cat: 'Case study',
+      title: 'CASE STUDY | 5 Years Later & Mighty Line Tape Is Still Visible',
+      blurb: 'After five years and 120,000 forklift passes, Mighty Line tape at Tribe Partner Brewing remains clearly visible, intact, and easily removable.' },
     { href: 'https://cotewell.com.au/why-line-marking-tape-fails-and-how-to-make-it-last/',
       img: UP + '2025/11/shared-image-18-225x300.jpg',
       cat: 'Tape guide',
